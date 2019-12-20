@@ -1,1 +1,4 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("navbar/style.css");
+@import url("section/section.css");
+@import url("footer/style.css");
+/*# sourceMappingURL=main.css.map */
