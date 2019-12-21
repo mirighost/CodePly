@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#main-component .left {
+  margin-top: 20px;
+  height: 100px;
+  margin-left: 10%;
+}
+
+#main-component .left .button {
+  background-color: #2196f3;
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
