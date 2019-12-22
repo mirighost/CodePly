@@ -33,19 +33,31 @@
   margin: -10px 0px 0px 5px;
 }
 
+#main-component .left .button .fas {
+  position: absolute;
+  right: 0px;
+  left: 80px;
+  bottom: 18px;
+}
+
 #main-component .left .left-containers {
+  text-align: center;
   background-color: #000;
-  width: 201px;
-  margin: 0px 0px 0px 0px;
+  width: 210.5px;
+  height: 20rem;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: -400px;
+  padding: 0px 0px 0px 0px;
 }
 
 #main-component .left .left-containers .links {
   font-family: 'Lexend Deca', sans-serif;
   color: #fff;
   font-size: 20px;
-  padding: 20px;
-  text-align: left;
   text-decoration: none;
+  font-size: 14px;
 }
 
 #main-component .middle {
