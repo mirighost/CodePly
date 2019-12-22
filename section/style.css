@@ -1,60 +1,50 @@
 #main-component {
   padding-top: 35px;
+  position: relative;
 }
 
 #main-component .left {
-  margin-top: 20px;
-  height: 100%;
-  margin-left: 10%;
-  height: 100%;
   background-color: #000;
-  margin-left: 1%;
   padding-top: 20px;
-  padding-left: 1%;
-  padding-bottom: 25px;
-  height: 3rem;
 }
 
 #main-component .left .button {
-  display: inline-block;
   text-align: center;
-  vertical-align: middle;
-  padding: 12px 15% 10px 5%;
+  padding: 5%;
   border: 0px solid #2196f3;
   border-radius: 100px;
   background: #2196f3;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0ca1ff), to(#0763af));
-  background: linear-gradient(to bottom, #0ca1ff, #0763af);
   color: #ffffff;
   text-decoration: none;
   width: 100%;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 17px;
-  margin: -10px 0px 0px 5px;
+  position: relative;
+  line-height: 150%;
 }
 
 #main-component .left .button .fas {
   position: absolute;
   right: 0%;
-  left: 43%;
-  bottom: 17px;
+  left: 55%;
+  bottom: 13px;
 }
 
 #main-component .left .left-containers {
   text-align: center;
-  background-color: #000;
-  width: 100%;
-  height: 20rem;
-  position: absolute;
-  right: 0%;
 }
 
-#main-component .left .left-containers .links {
+#main-component .left .left-containers .left-links {
+  color: #fff;
+  font-size: 17px;
+  line-height: 250%;
+}
+
+#main-component .left .left-containers .left-links .left-link {
   font-family: 'Lexend Deca', sans-serif;
   color: #fff;
-  font-size: 20px;
-  text-decoration: none;
   font-size: 17px;
+  text-decoration: none;
 }
 
 #main-component .middle {
@@ -113,5 +103,29 @@
 #main-component .middle .first-middle .sign-up2 {
   background-color: #2196f3;
   border-color: transparent;
+}
+
+#main-component .right {
+  background-color: #000;
+  position: absolute;
+  right: 1%;
+  top: 13%;
+  height: 125%;
+  width: 15%;
+}
+
+#main-component .right .right-containers #h2 {
+  font-size: 150%;
+  color: #2196f3;
+  line-height: 150%;
+}
+
+#main-component .right .right-containers .right-links {
+  line-height: 200%;
+}
+
+#main-component .right .right-containers .right-links .right-link {
+  text-decoration: none;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
