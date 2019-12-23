@@ -14,7 +14,30 @@
     .navbar{
 
         .nav{
+            position: relative;
 
+            .fa-user{
+                color: #fff;
+                position: absolute;
+                left: 265%;
+                bottom: 30px;
+                text-decoration: none;
+            }
+
+            .fa-question-circle{
+                position: absolute;
+                left: 255%;
+                bottom: 30px;
+                color: #fff;
+                text-decoration: none;
+            }
+            .fa-tags{
+                position: absolute;
+                color: #fff;
+                text-decoration: none;
+                bottom: 30px;
+                left: 245%;
+            }
             
         }
     }
