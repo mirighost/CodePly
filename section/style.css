@@ -16,7 +16,6 @@
 
 #main-component .left .button {
   text-align: center;
-  padding-left: 7%;
   border: 0px solid #2196f3;
   border-radius: 100px;
   background: #2196f3;
@@ -25,20 +24,7 @@
   width: 100%;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 17px;
-  position: relative;
   height: 50px;
-}
-
-#main-component .left .button .new-play-span {
-  position: absolute;
-  width: 100%;
-  right: 5%;
-  position: relative;
-}
-
-#main-component .left .button .fas {
-  width: 10%;
-  bottom: 16px;
 }
 
 #main-component .left .left-containers .left-links {
@@ -138,5 +124,11 @@
   color: #fff;
   text-decoration: none;
   font-weight: lighter;
+}
+
+@media only screen and (max-width: 991px) {
+  #main-component .left {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
