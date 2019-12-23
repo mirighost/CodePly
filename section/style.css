@@ -7,10 +7,9 @@
 
 #main-component .left {
   background-color: #000;
-  padding-top: 20px;
-  padding-left: 2%;
+  padding-left: 1%;
   background-color: #000;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -38,6 +37,10 @@
   color: #fff;
   text-decoration: none;
   font-weight: lighter;
+}
+
+#main-component .left .left-containers .left-links .left-link .ma-1 {
+  padding-right: 2%;
 }
 
 #main-component .middle {
@@ -75,7 +78,7 @@
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 100%;
   padding: 10px 31px;
   text-decoration: none;
@@ -140,6 +143,9 @@
 @media only screen and (min-width: 992px) {
   #main-component .left .button {
     font-size: 15px;
+  }
+  #main-component .left .left-containers .left-links .left-link {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
