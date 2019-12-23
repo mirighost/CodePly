@@ -11,11 +11,9 @@
         background-color: #000;
         padding-top: 20px;
         padding-left: 2%;
-
         margin-bottom: 10px;
         background-color: #000;
         padding-top: 20px;
-        text-align: center;
 
         .button {
             text-align: center;
@@ -40,7 +38,6 @@
             }
 
             .fas{
-                position: absolute;
                 width: 10%;
                 bottom: 16px;
             }
@@ -131,7 +128,6 @@
         padding-left: 2%;
         margin-bottom: 50px;
         padding-top: 20px;
-        text-align: center;
         background-color: #000;
 
         .right-containers{
@@ -147,6 +143,7 @@
                 color: #fff;
                 font-size: 75%;
                 line-height: 240%;
+                font-weight: lighter;
 
                 .right-link{
                     font-family: 'Lexend Deca', sans-serif;

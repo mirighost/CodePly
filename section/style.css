@@ -12,7 +12,6 @@
   margin-bottom: 10px;
   background-color: #000;
   padding-top: 20px;
-  text-align: center;
 }
 
 #main-component .left .button {
@@ -38,7 +37,6 @@
 }
 
 #main-component .left .button .fas {
-  position: absolute;
   width: 10%;
   bottom: 16px;
 }
@@ -119,7 +117,6 @@
   padding-left: 2%;
   margin-bottom: 50px;
   padding-top: 20px;
-  text-align: center;
   background-color: #000;
 }
 
@@ -133,6 +130,7 @@
   color: #fff;
   font-size: 75%;
   line-height: 240%;
+  font-weight: lighter;
 }
 
 #main-component .right .right-containers .right-links .right-link {
