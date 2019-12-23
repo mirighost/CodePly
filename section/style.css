@@ -9,9 +9,9 @@
   background-color: #000;
   padding-top: 20px;
   padding-left: 2%;
-  margin-bottom: 10px;
   background-color: #000;
   padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 #main-component .left .button {
@@ -41,7 +41,8 @@
 }
 
 #main-component .middle {
-  padding-left: 2%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #main-component .middle .first-middle {

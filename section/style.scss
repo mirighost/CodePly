@@ -9,9 +9,9 @@
         background-color: #000;
         padding-top: 20px;
         padding-left: 2%;
-        margin-bottom: 10px;
         background-color: #000;
         padding-top: 20px;
+        padding-bottom: 15px;
 
         .button {
             text-align: center;
@@ -28,8 +28,6 @@
         }
 
         .left-containers {
-
-
             .left-links {
                 color: #fff;
                 font-size: 75%;
@@ -49,7 +47,8 @@
 
     // middle section
     .middle {
-        padding-left: 2%;
+        margin-top: 15px;
+        margin-bottom: 15px;
 
         .first-middle {
             background-color: #202020;
@@ -106,6 +105,7 @@
 
     }
 
+    // right section
     .right {
         padding-top: 20px;
         padding-left: 2%;
@@ -114,8 +114,6 @@
         background-color: #000;
 
         .right-containers {
-
-
             #h2 {
                 color: #2196f3;
                 font-weight: bold;
@@ -141,8 +139,8 @@
 }
 
 @media only screen and (max-width: 991px) {
-    #main-component{
-        .left{
+    #main-component {
+        .left {
             text-align: center;
         }
     }
