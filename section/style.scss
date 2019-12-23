@@ -125,4 +125,37 @@
         }
 
     }
+
+    .right{
+        padding-top: 20px;
+        padding-left: 2%;
+        margin-bottom: 50px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #000;
+
+        .right-containers{
+
+
+            #h2{
+                color: #2196f3;
+                font-weight: bold;
+                font-size: 170%;
+            }
+
+            .right-links{
+                color: #fff;
+                font-size: 75%;
+                line-height: 240%;
+
+                .right-link{
+                    font-family: 'Lexend Deca', sans-serif;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: lighter;
+
+                }
+            }
+        }
+    }
 }

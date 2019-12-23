@@ -113,4 +113,32 @@
   background-color: #2196f3;
   border-color: transparent;
 }
+
+#main-component .right {
+  padding-top: 20px;
+  padding-left: 2%;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #000;
+}
+
+#main-component .right .right-containers #h2 {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 170%;
+}
+
+#main-component .right .right-containers .right-links {
+  color: #fff;
+  font-size: 75%;
+  line-height: 240%;
+}
+
+#main-component .right .right-containers .right-links .right-link {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-weight: lighter;
+}
 /*# sourceMappingURL=style.css.map */
