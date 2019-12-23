@@ -1,17 +1,23 @@
 #main-component {
   padding-top: 35px;
   position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 #main-component .left {
   background-color: #000;
   padding-top: 20px;
   padding-left: 2%;
+  margin-bottom: 10px;
+  background-color: #000;
+  padding-top: 20px;
+  text-align: center;
 }
 
 #main-component .left .button {
   text-align: center;
-  padding: 5%;
+  padding-left: 7%;
   border: 0px solid #2196f3;
   border-radius: 100px;
   background: #2196f3;
@@ -21,31 +27,33 @@
   font-family: 'Lexend Deca', sans-serif;
   font-size: 17px;
   position: relative;
-  line-height: 150%;
+  height: 50px;
+}
+
+#main-component .left .button .new-play-span {
+  position: absolute;
+  width: 100%;
+  right: 5%;
+  position: relative;
 }
 
 #main-component .left .button .fas {
   position: absolute;
-  right: 0%;
-  left: 55%;
-  bottom: 13px;
-}
-
-#main-component .left .left-containers {
-  text-align: center;
+  width: 10%;
+  bottom: 16px;
 }
 
 #main-component .left .left-containers .left-links {
   color: #fff;
-  font-size: 17px;
-  line-height: 260%;
+  font-size: 75%;
+  line-height: 300%;
 }
 
 #main-component .left .left-containers .left-links .left-link {
   font-family: 'Lexend Deca', sans-serif;
   color: #fff;
-  font-size: 17px;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 #main-component .middle {
@@ -104,29 +112,5 @@
 #main-component .middle .first-middle .sign-up2 {
   background-color: #2196f3;
   border-color: transparent;
-}
-
-#main-component .right {
-  background-color: #000;
-  position: absolute;
-  right: 1%;
-  top: 13%;
-  height: 125%;
-  width: 15%;
-}
-
-#main-component .right .right-containers #h2 {
-  font-size: 150%;
-  color: #2196f3;
-  line-height: 150%;
-}
-
-#main-component .right .right-containers .right-links {
-  line-height: 200%;
-}
-
-#main-component .right .right-containers .right-links .right-link {
-  text-decoration: none;
-  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

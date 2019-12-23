@@ -1,16 +1,25 @@
 #main-component {
     padding-top: 35px;
     position: relative;
+    margin-left: 1%;
+        margin-right: 1%;
 
     // left section
+
+
     .left {
         background-color: #000;
         padding-top: 20px;
         padding-left: 2%;
 
+        margin-bottom: 10px;
+        background-color: #000;
+        padding-top: 20px;
+        text-align: center;
+
         .button {
             text-align: center;
-            padding: 5%;
+            padding-left: 7%;
             border: 0px solid #2196f3;
             border-radius: 100px;
             background: #2196f3;
@@ -20,33 +29,38 @@
             font-family: 'Lexend Deca', sans-serif;
             font-size: 17px;
             position: relative;
-            line-height: 150%;
+            height: 50px;
 
-            .fas {
+            .new-play-span{
+            position: absolute;
+            width: 100%;
+            right: 5%;
+            position: relative;
+
+            }
+
+            .fas{
                 position: absolute;
-                right: 0%;
-                left: 55%;
-                bottom: 13px;
+                width: 10%;
+                bottom: 16px;
             }
 
         }
 
-
         .left-containers {
-
-            text-align: center;
+            
 
             .left-links {
                 color: #fff;
-                font-size: 17px;
-                line-height: 260%;
-
+                font-size: 75%;
+                line-height: 300%;
+ 
                 .left-link {
 
                     font-family: 'Lexend Deca', sans-serif;
                     color: #fff;
-                    font-size: 17px;
                     text-decoration: none;
+                    font-weight: lighter;
                 }
             }
         }
@@ -110,33 +124,5 @@
             }
         }
 
-    }
-
-    .right {
-        background-color: #000;
-        position: absolute;
-        right: 1%;
-        top: 13%;
-        height: 125%;
-        width: 15%;
-
-        .right-containers {
-
-
-            #h2 {
-                font-size: 150%;
-                color: #2196f3;
-                line-height: 150%;
-            }
-
-            .right-links {
-                line-height: 200%;
-
-                .right-link {
-                    text-decoration: none;
-                    color: #fff;
-                }
-            }
-        }
     }
 }
