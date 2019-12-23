@@ -40,7 +40,7 @@
 }
 
 #main-component .left .left-containers .left-links .left-link .ma-1 {
-  padding-right: 2%;
+  margin-right: 2%;
 }
 
 #main-component .middle {
@@ -72,6 +72,7 @@
 }
 
 #main-component .middle .first-middle .sign-up {
+  outline: transparent;
   background-color: transparent;
   border-radius: 28px;
   border: 1px solid white;
@@ -144,5 +145,14 @@
   #main-component .left .button {
     font-size: 15px;
   }
+<<<<<<< HEAD
+=======
+  #main-component .left .left-containers {
+    margin-left: 15px;
+  }
+  #main-component .left .left-containers .left-links2 {
+    font-size: 8.5px;
+  }
+>>>>>>> 53e6339df7828f152b6f8c30d14be30078b6c801
 }
 /*# sourceMappingURL=style.css.map */
