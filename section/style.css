@@ -6,6 +6,7 @@
 #main-component .left {
   background-color: #000;
   padding-top: 20px;
+  padding-left: 2%;
 }
 
 #main-component .left .button {
@@ -37,7 +38,7 @@
 #main-component .left .left-containers .left-links {
   color: #fff;
   font-size: 17px;
-  line-height: 250%;
+  line-height: 260%;
 }
 
 #main-component .left .left-containers .left-links .left-link {

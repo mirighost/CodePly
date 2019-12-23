@@ -4,9 +4,9 @@
 
     // left section
     .left {
-        
         background-color: #000;
         padding-top: 20px;
+        padding-left: 2%;
 
         .button {
             text-align: center;
@@ -22,7 +22,7 @@
             position: relative;
             line-height: 150%;
 
-            .fas{
+            .fas {
                 position: absolute;
                 right: 0%;
                 left: 55%;
@@ -31,19 +31,17 @@
 
         }
 
-        
 
-
-        .left-containers{
+        .left-containers {
 
             text-align: center;
 
             .left-links {
                 color: #fff;
                 font-size: 17px;
-                line-height: 250%;
+                line-height: 260%;
 
-                .left-link{
+                .left-link {
 
                     font-family: 'Lexend Deca', sans-serif;
                     color: #fff;
@@ -114,7 +112,7 @@
 
     }
 
-    .right{
+    .right {
         background-color: #000;
         position: absolute;
         right: 1%;
@@ -122,19 +120,19 @@
         height: 125%;
         width: 15%;
 
-        .right-containers{
+        .right-containers {
 
 
-            #h2{
+            #h2 {
                 font-size: 150%;
                 color: #2196f3;
                 line-height: 150%;
             }
 
-            .right-links{
+            .right-links {
                 line-height: 200%;
 
-                .right-link{
+                .right-link {
                     text-decoration: none;
                     color: #fff;
                 }
