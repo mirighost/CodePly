@@ -104,6 +104,61 @@
   border-color: transparent;
 }
 
+#main-component .middle .second-middle {
+  margin-top: 27px;
+}
+
+#main-component .middle .second-middle .second-middle-row .picture1 {
+  height: 150px;
+  width: 100%;
+  display: block;
+  margin-bottom: -15px;
+}
+
+#main-component .middle .second-middle .second-middle-row .middle-icon {
+  padding-top: 10px;
+  background-color: #3b3b3b;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+#main-component .middle .second-middle .second-middle-row .middle-icon .icon-middle {
+  color: white;
+  font-size: 30px;
+}
+
+#main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first {
+  line-height: 0.9;
+  color: white;
+  text-indent: 2px;
+}
+
+#main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first .span-of-first {
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+
+#main-component .middle .second-middle .form-first {
+  padding-left: 5%;
+  padding-bottom: 20px;
+  background-color: #3b3b3b;
+  margin-bottom: 27px;
+}
+
+#main-component .middle .second-middle .form-first .form-buttons {
+  background-color: transparent;
+  border-radius: 35px;
+  border-color: white;
+  border-width: 0.5px;
+  width: 80px;
+  font-size: 80%;
+  color: #818080;
+}
+
 #main-component .right {
   padding-top: 20px;
   padding-left: 2%;
