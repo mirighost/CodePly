@@ -2,8 +2,15 @@
 .navbar {
     background-color: #000000;
 
+    .navbar-toggler {
 
-// CodePLY Logo Written
+        .navbar-toggler-icon {}
+    }
+
+
+
+
+    // CodePLY Logo Written
     .navbar-brand {
         font-family: 'Lexend Deca', sans-serif;
         font-size: 32px;
@@ -12,17 +19,53 @@
     }
 
 
-// Left-icons
+    // Left-icons
     .fas {
         text-align: right;
         color: grey;
     }
 
-    .search-bar{
-        background-color: #303030;
+    .search-bar {
+        color: white;
+        background-color: #202020;
         border: transparent;
-        border-radius: 7px;;
+        border-radius: 5px;
         height: 40px;
         width: 350px;
+        padding: 8px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: bold;
+        outline: transparent;
+        margin-right: -30px;
     }
+
+    .search-bar:placeholder-shown {
+        color: #2196f3;
+    }
+
+    .search-bar:hover {
+        border-bottom: 1px white;
+    }
+
+
+    .form-inline {
+
+
+        .button {
+            background-color: transparent;
+            border: transparent;
+            color: #ffffff;
+            outline: transparent;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        .nav {
+            .navbar-brand {}
+        }
+    }
+
 }

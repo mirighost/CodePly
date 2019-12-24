@@ -15,10 +15,31 @@
 }
 
 .navbar .search-bar {
-  background-color: #303030;
+  color: white;
+  background-color: #202020;
   border: transparent;
-  border-radius: 7px;
+  border-radius: 5px;
   height: 40px;
   width: 350px;
+  padding: 8px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  outline: transparent;
+  margin-right: -30px;
+}
+
+.navbar .search-bar:placeholder-shown {
+  color: #2196f3;
+}
+
+.navbar .search-bar:hover {
+  border-bottom: 1px white;
+}
+
+.navbar .form-inline .button {
+  background-color: transparent;
+  border: transparent;
+  color: #ffffff;
+  outline: transparent;
 }
 /*# sourceMappingURL=style.css.map */
