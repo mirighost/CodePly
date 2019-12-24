@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.navbar {
+  background-color: #000000;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
