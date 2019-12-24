@@ -10,29 +10,17 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar .nav {
-    position: relative;
-  }
   .navbar .nav .fa-user {
     color: #fff;
-    position: absolute;
-    left: 265%;
-    bottom: 30px;
     text-decoration: none;
   }
   .navbar .nav .fa-question-circle {
-    position: absolute;
-    left: 255%;
-    bottom: 30px;
     color: #fff;
     text-decoration: none;
   }
   .navbar .nav .fa-tags {
-    position: absolute;
     color: #fff;
     text-decoration: none;
-    bottom: 30px;
-    left: 245%;
   }
 }
 /*# sourceMappingURL=style.css.map */
