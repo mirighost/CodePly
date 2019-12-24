@@ -10,6 +10,15 @@
 }
 
 .navbar .fas {
+  text-align: right;
   color: grey;
+}
+
+.navbar .search-bar {
+  background-color: #303030;
+  border: transparent;
+  border-radius: 7px;
+  height: 40px;
+  width: 350px;
 }
 /*# sourceMappingURL=style.css.map */
