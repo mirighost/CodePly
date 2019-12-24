@@ -142,14 +142,14 @@
   font-weight: bold;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first {
+#main-component .middle .second-middle .form-first {
   padding-left: 5%;
   padding-bottom: 20px;
   background-color: #3b3b3b;
   margin-bottom: 27px;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .form-buttons {
+#main-component .middle .second-middle .form-first .form-buttons {
   background-color: transparent;
   border-radius: 35px;
   border-color: white;
