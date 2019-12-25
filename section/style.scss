@@ -11,6 +11,7 @@
         background-color: #000;
         padding-top: 15px;
         padding-bottom: 15px;
+        height: 100%;
 
         .button {
             text-align: center;
@@ -110,7 +111,7 @@
             }
         }
 
-        // second middle section
+        // SECOND MIDDLE section
         .second-middle {
             margin-top: 27px;
 
@@ -118,6 +119,8 @@
 
                 // picture of section
                 .picture1 {
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
                     height: 150px;
                     width: 100%;
                     display: block;
@@ -131,7 +134,6 @@
                     padding-left: 5%;
                     display: flex;
                     margin-top: 15px;
-
 
                     .icon-middle {
                         color: white;
@@ -150,25 +152,54 @@
                         }
                     }
                 }
-            }
 
+                // buttons of columns
+                .form-first {
+                    background-color: #3b3b3b;
+                    margin-bottom: 27px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
 
+                    .form-buttons {
+                        outline: transparent;
+                        background-color: transparent;
+                        border-radius: 35px;
+                        border-color: white;
+                        border-width: 0.5px;
+                        width: 30%;
+                        font-size: 80%;
+                        color: rgb(129, 128, 128);
+                    }
 
-            // buttons of columns
-            .form-first {
-                padding-left: 5%;
-                padding-bottom: 20px;
-                background-color: #3b3b3b;
-                margin-bottom: 27px;
+                    #special-margin {
+                        margin-left: 5%;
+                    }
 
-                .form-buttons {
-                    background-color: transparent;
-                    border-radius: 35px;
-                    border-color: white;
-                    border-width: 0.5px;
-                    width: 80px;
-                    font-size: 80%;
-                    color: rgb(129, 128, 128);
+                    .second-form {
+                        background-color: #2c2c2c;
+                        display: flex;
+                        margin-top: 15px;
+                        justify-content: space-between;
+                        padding: 15px 5%;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+
+                        .button-branch {
+                            background-color: transparent;
+                            border-color: white;
+                            border-radius: 4px;
+                            border-width: 0.5px;
+                            color: white;
+                            font-size: small;
+                        }
+
+                        .button-arrow {
+                            background-color: transparent;
+                            border-color: transparent;
+                            font-size: large;
+                            color: #2196f3;
+                        }
+                    }
                 }
             }
         }
@@ -181,6 +212,7 @@
         margin-bottom: 50px;
         padding-top: 20px;
         background-color: #000;
+        height: 100%;
 
         .right-containers {
             #h2 {
