@@ -5,16 +5,7 @@
   margin-right: 1%;
 }
 
-#main-component .left {
-  background-color: #000;
-  padding-left: 1%;
-  background-color: #000;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: 100%;
-}
-
-#main-component .left .button {
+#main-component .button {
   text-align: center;
   border: 0px solid #2196f3;
   border-radius: 100px;
@@ -25,23 +16,6 @@
   font-family: 'Lexend Deca', sans-serif;
   font-size: 17px;
   height: 50px;
-}
-
-#main-component .left .left-containers .left-links {
-  color: #fff;
-  font-size: 75%;
-  line-height: 300%;
-}
-
-#main-component .left .left-containers .left-links .left-link {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fff;
-  text-decoration: none;
-  font-weight: lighter;
-}
-
-#main-component .left .left-containers .left-links .left-link .ma-1 {
-  margin-right: 2%;
 }
 
 #main-component .middle {
@@ -197,52 +171,23 @@
   color: #2196f3;
 }
 
-#main-component .right {
-  padding-top: 20px;
-  padding-left: 2%;
-  margin-bottom: 50px;
-  padding-top: 20px;
-  background-color: #000;
-  height: 100%;
-}
-
-#main-component .right .right-containers #h2 {
-  color: #2196f3;
-  font-weight: bold;
-  font-size: 170%;
-}
-
-#main-component .right .right-containers .right-links {
-  color: #fff;
-  font-size: 75%;
-  line-height: 240%;
-  font-weight: lighter;
-}
-
-#main-component .right .right-containers .right-links .right-link {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fff;
-  text-decoration: none;
-  font-weight: lighter;
-}
-
 @media only screen and (max-width: 991px) {
-  #main-component .left {
+  #main-component #main-component .left {
     text-align: center;
   }
-  #main-component .right {
+  #main-component #main-component .right {
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  #main-component .left .button {
+  #main-component #main-component .left .button {
     font-size: 15px;
   }
-  #main-component .left .left-containers {
+  #main-component #main-component .left .left-containers {
     margin-left: 15px;
   }
-  #main-component .left .left-containers .left-links2 {
+  #main-component #main-component .left .left-containers .left-links2 {
     font-size: 8.5px;
   }
 }
