@@ -1,6 +1,9 @@
 // NavBar Section
 .navbar {
     background-color: #000000;
+    position: sticky;
+    z-index: 1;
+    top: 0;
     // .navbar-toggler {
 
     //     .navbar-toggler-icon {}

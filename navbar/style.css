@@ -1,5 +1,9 @@
 .navbar {
   background-color: #000000;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .navbar .navbar-brand {
