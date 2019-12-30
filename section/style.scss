@@ -24,8 +24,7 @@
         }
 
         .left-container {
-            width: 110%;
-            margin-left: -10%;
+            width: 100%;
 
             .links {
                 font-family: 'Lexend Deca', sans-serif;
@@ -37,6 +36,10 @@
                 white-space: nowrap;
                 width: 100%;
                 line-height: 250%;
+
+                .list {
+                    padding-left: 5%;
+                }
 
 
                 .contents:hover {
@@ -52,20 +55,29 @@
                 }
             }
 
-
             .left-bottom {
 
+                .bottom-list {
+                    list-style-type: none;
+                    padding-left: 5%;
 
-                .left-bottom-link {
-                    font-family: 'Lexend Deca', sans-serif;
-                    text-decoration: none;
-                    color: #ffffff;
+                    .bottom-list{
 
-                    .fa-star{
-                        margin-right: 2%;
+                        .features {
+                            text-decoration: none;
+                            color: #ffffff;
+                            font-family: 'Lexend Deca', sans-serif;
+
+                            .fa-star {
+                                margin-right: 2%;
+                            }
+                        }
+                    }
+                    .bottom-list:hover {
+                        background-color: grey;
                     }
                 }
-
+                
             }
         }
     }
