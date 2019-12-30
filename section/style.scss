@@ -26,18 +26,18 @@
         .left-container {
             width: 110%;
 
-            .links{
+            .links {
                 font-family: 'Lexend Deca', sans-serif;
                 font-size: 25px;
                 margin-top: 2%;
                 overflow: hidden;
                 width: 95%;
 
-                .ma-1{
+                .ma-1 {
                     padding-left: 2%;
                 }
 
-                .link{
+                .link {
                     text-decoration: none;
                     color: #ffffff;
                     padding-left: 2%;
@@ -118,126 +118,132 @@
             margin-top: 27px;
 
             .second-middle-row {
+                .main-component-shadow {
+                    -webkit-box-shadow: 0px 0px 12px -3px #000000;
+                    box-shadow: 0px 0px 12px -3px #000000;
 
-                // picture of section
-                .picture1 {
-                    border-top-left-radius: 5px;
-                    border-top-right-radius: 5px;
-                    height: 150px;
-                    width: 100%;
-                    display: block;
-                    margin-bottom: -15px;
-                }
-
-                // detail about user
-                .middle-icon {
-                    padding-top: 10px;
-                    background-color: #3b3b3b;
-                    display: flex;
-                    margin-top: 15px;
-                    padding-right: 3%;
-                    padding-left: 3%;
-
-                    .icon-middle {
-                        color: white;
-                        font-size: 30px;
+                    // picture of section
+                    .picture1 {
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        height: 150px;
+                        width: 100%;
+                        display: block;
+                        margin-bottom: -15px;
                     }
 
-                    .main-of-first {
-                        margin-top: 2px;
+                    // detail about user
+                    .middle-icon {
+                        padding-top: 10px;
+                        background-color: #3b3b3b;
+                        display: flex;
+                        margin-top: 15px;
+                        padding-right: 3%;
+                        padding-left: 3%;
+
+                        .icon-middle {
+                            color: white;
+                            font-size: 30px;
+                        }
+
+                        .main-of-first {
+                            margin-top: 2px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            line-height: 0.9;
+                            color: white;
+                            text-indent: 2px;
+                            margin-right: 2%;
+                            font-size: 0.9rem;
+
+                            .span-of-first {
+                                margin-left: 0.7%;
+                                font-size: 11px;
+                                color: grey;
+                                font-weight: bold;
+                            }
+                        }
+
+                        .number-button {
+                            background-color: transparent;
+                            border-color: rgb(49, 214, 49);
+                            border-width: 0.5px;
+                            border-radius: 3px;
+                            font-size: 60%;
+                            color: rgb(49, 214, 49);
+                            width: 40px;
+                            height: 23px;
+                            outline: transparent;
+                            margin-left: auto;
+                        }
+                    }
+
+                    // buttons of columns
+                    .form-first {
+                        background-color: #3b3b3b;
+                        margin-bottom: 27px;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
                         text-overflow: ellipsis;
                         overflow: hidden;
                         white-space: nowrap;
-                        line-height: 0.9;
-                        color: white;
-                        text-indent: 2px;
-                        margin-right: 2%;
-                        font-size: 0.9rem;
 
-                        .span-of-first {
-                            margin-left: 0.7%;
-                            font-size: 11px;
-                            color: grey;
-                            font-weight: bold;
-                        }
-                    }
+                        .buttons4 {
+                            padding-left: 3%;
 
-                    .number-button {
-                        background-color: transparent;
-                        border-color: rgb(49, 214, 49);
-                        border-width: 0.5px;
-                        border-radius: 3px;
-                        font-size: 60%;
-                        color: rgb(49, 214, 49);
-                        width: 40px;
-                        height: 23px;
-                        outline: transparent;
-                        margin-left: auto;
-                    }
-                }
-
-                // buttons of columns
-                .form-first {
-                    background-color: #3b3b3b;
-                    margin-bottom: 27px;
-                    border-bottom-left-radius: 5px;
-                    border-bottom-right-radius: 5px;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                    white-space: nowrap;
-
-                    .buttons4 {
-                        padding-left: 3%;
-
-                        .form-buttons {
-                            outline: transparent;
-                            background-color: transparent;
-                            border-radius: 35px;
-                            border-color: white;
-                            border-width: 0.5px;
-                            width: 30%;
-                            font-size: 0.7rem;
-                            color: rgb(129, 128, 128);
-                            margin-right: 1%;
-                        }
-                    }
-
-                    .second-form {
-                        background-color: #2c2c2c;
-                        display: flex;
-                        margin-top: 15px;
-                        justify-content: space-between;
-                        padding: 15px 5%;
-                        border-bottom-left-radius: 5px;
-                        border-bottom-right-radius: 5px;
-
-                        .button-branch {
-                            background-color: transparent;
-                            border-color: white;
-                            border-radius: 4px;
-                            border-width: 0.5px;
-                            color: white;
-                            font-size: 0.7rem;
+                            .form-buttons {
+                                outline: transparent;
+                                background-color: transparent;
+                                border-radius: 35px;
+                                border-color: white;
+                                border-width: 0.5px;
+                                width: 30%;
+                                font-size: 0.7rem;
+                                color: rgb(129, 128, 128);
+                                margin-right: 1%;
+                            }
                         }
 
-                        .button-arrow {
-                            background-color: transparent;
-                            border-color: transparent;
-                            font-size: large;
-                            color: #2196f3;
-                        }
+                        .second-form {
+                            background-color: #2c2c2c;
+                            display: flex;
+                            margin-top: 15px;
+                            justify-content: space-between;
+                            padding: 15px 5%;
+                            border-bottom-left-radius: 5px;
+                            border-bottom-right-radius: 5px;
 
-                        .right-button {
-                            margin-left: auto;
+                            .button-branch {
+                                background-color: transparent;
+                                border-color: white;
+                                border-radius: 4px;
+                                border-width: 0.5px;
+                                color: white;
+                                font-size: 0.7rem;
+                            }
 
-                            .button-arrow2 {
+                            .button-arrow {
                                 background-color: transparent;
                                 border-color: transparent;
                                 font-size: large;
                                 color: #2196f3;
                             }
+
+                            .right-button {
+                                margin-left: auto;
+
+                                .button-arrow2 {
+                                    background-color: transparent;
+                                    border-color: transparent;
+                                    font-size: large;
+                                    color: #2196f3;
+                                }
+                            }
                         }
                     }
+
+
                 }
 
                 .class-for-right {
