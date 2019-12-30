@@ -140,6 +140,7 @@
 }
 
 #main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first .span-of-first {
+  margin-left: 0.7%;
   font-size: 11px;
   color: grey;
   font-weight: bold;
@@ -214,8 +215,23 @@
   color: #2196f3;
 }
 
-#main-component .middle .second-middle .second-middle-row .button-more {
+#main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button {
   margin-left: auto;
+}
+
+#main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button .button-arrow2 {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: large;
+  color: #2196f3;
+}
+
+#main-component .middle .second-middle .second-middle-row .class-for-right {
+  text-align: right;
+}
+
+#main-component .middle .second-middle .second-middle-row .class-for-right .button-more {
+  text-align: right;
   background-color: transparent;
   border-radius: 3px;
   border-color: #2196f3 !important;
@@ -225,9 +241,12 @@
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   margin-bottom: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-#main-component .middle .second-middle .second-middle-row .button-more:hover {
+#main-component .middle .second-middle .second-middle-row .class-for-right .button-more:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-color: #2196f3;
