@@ -24,12 +24,25 @@
         }
 
         .left-container {
-            margin-top: 15px;
+            width: 110%;
 
-            .angular {
-                text-decoration: none;
+            .links{
                 font-family: 'Lexend Deca', sans-serif;
-                color: #ffffff;
+                font-size: 25px;
+                margin-top: 2%;
+                overflow: hidden;
+                width: 95%;
+
+                .ma-1{
+                    padding-left: 2%;
+                }
+
+                .link{
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding-left: 2%;
+
+                }
             }
         }
     }
@@ -261,9 +274,7 @@
         }
     }
 
-    // right section
-
-
+    // Media Section
 
     @media only screen and (max-width: 991px) {
         #main-component {
@@ -286,10 +297,7 @@
 
                 .left-containers {
                     margin-left: 15px;
-
-                    .left-links2 {
-                        font-size: 8.5px;
-                    }
+                    text-align: center;
                 }
             }
         }

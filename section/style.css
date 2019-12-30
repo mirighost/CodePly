@@ -25,13 +25,25 @@
 }
 
 #main-component .left .left-container {
-  margin-top: 15px;
+  width: 110%;
 }
 
-#main-component .left .left-container .angular {
-  text-decoration: none;
+#main-component .left .left-container .links {
   font-family: 'Lexend Deca', sans-serif;
+  font-size: 25px;
+  margin-top: 2%;
+  overflow: hidden;
+  width: 95%;
+}
+
+#main-component .left .left-container .links .ma-1 {
+  padding-left: 2%;
+}
+
+#main-component .left .left-container .links .link {
+  text-decoration: none;
   color: #ffffff;
+  padding-left: 2%;
 }
 
 #main-component .middle {
@@ -275,9 +287,7 @@
   }
   #main-component #main-component .left .left-containers {
     margin-left: 15px;
-  }
-  #main-component #main-component .left .left-containers .left-links2 {
-    font-size: 8.5px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
