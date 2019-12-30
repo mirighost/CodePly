@@ -15,7 +15,7 @@
             border-radius: 100px;
             background: #2196f3;
             color: #ffffff;
-            margin-top: 10px;
+            margin-top: 15px;
             text-decoration: none;
             width: 100%;
             font-family: 'Lexend Deca', sans-serif;
@@ -25,16 +25,23 @@
 
         .left-container {
             width: 110%;
+            margin-left: -10%;
 
             .links {
                 font-family: 'Lexend Deca', sans-serif;
-                font-size: 25px;
-                margin-top: 2%;
+                font-size: 20px;
+                margin-top: 5%;
+                text-overflow: ellipsis;
                 overflow: hidden;
-                width: 95%;
+                width: 170px;
+                white-space: nowrap;
+                width: 100%;
+                line-height: 250%;
 
-                .ma-1 {
-                    padding-left: 2%;
+
+                .contents:hover {
+                    background-color: grey;
+                    border-radius: 30px;
                 }
 
                 .link {
@@ -43,6 +50,22 @@
                     padding-left: 2%;
 
                 }
+            }
+
+
+            .left-bottom {
+
+
+                .left-bottom-link {
+                    font-family: 'Lexend Deca', sans-serif;
+                    text-decoration: none;
+                    color: #ffffff;
+
+                    .fa-star{
+                        margin-right: 2%;
+                    }
+                }
+
             }
         }
     }
