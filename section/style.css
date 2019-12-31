@@ -70,6 +70,11 @@
   margin-right: 2%;
 }
 
+#main-component .left .left-container .left-bottom .bottom-list .bottom-list:hover {
+  background-color: grey;
+  border-radius: 30px;
+}
+
 #main-component .middle {
   margin-top: 15px;
   margin-bottom: 15px;
