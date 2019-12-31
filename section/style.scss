@@ -6,8 +6,11 @@
 
     // left section
     .left {
-        background-color: #000000;
+        -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        background-color: #363636;
         height: 100%;
+        border-radius: 5px;
 
         .button {
             text-align: center;
@@ -87,13 +90,13 @@
 
     // middle section
     .middle {
-        margin-top: 15px;
         margin-bottom: 15px;
 
         // FIRST MIDDLE section
         .first-middle {
             font-family: 'Lexend Deca', sans-serif;
-
+            -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
             background-color: #202020;
             padding-bottom: 45px;
             border-radius: 5px;
@@ -156,8 +159,8 @@
 
             .second-middle-row {
                 .main-component-shadow {
-                    -webkit-box-shadow: 0px 0px 12px -3px #000000;
-                    box-shadow: 0px 0px 12px -3px #000000;
+                    -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+                    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                     border-bottom-left-radius: 5px;
                     border-bottom-right-radius: 5px;
                     border-top-left-radius: 5px;
@@ -175,10 +178,9 @@
 
                     // detail about user
                     .middle-icon {
-                        padding-top: 10px;
-                        background-color: #3b3b3b;
+                        padding-top: 20px;
+                        background-color: #363636;
                         display: flex;
-                        margin-top: 15px;
                         padding-right: 3%;
                         padding-left: 3%;
 
@@ -222,7 +224,7 @@
 
                     // buttons of columns
                     .form-first {
-                        background-color: #3b3b3b;
+                        background-color: #363636;
                         margin-bottom: 27px;
                         border-bottom-left-radius: 5px;
                         border-bottom-right-radius: 5px;
@@ -322,37 +324,42 @@
             }
         }
     }
+}
 
-    // Media Section
+// Media Section
+@media only screen and (max-width: 991px) {
+    #main-component {
+        .left {
+            text-align: center;
+        }
 
-    @media only screen and (max-width: 991px) {
-        #main-component {
-            .left {
-                text-align: center;
+        .middle {
+            margin-top: 15px;
+        }
+
+        .right {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #main-component {
+        .left {
+            .button {
+                font-size: 15px;
             }
 
-            .right {
+            .left-containers {
+                margin-left: 15px;
                 text-align: center;
             }
         }
     }
+}
 
-    @media only screen and (min-width: 992px) {
-        #main-component {
-            .left {
-                .button {
-                    font-size: 15px;
-                }
-
-                .left-containers {
-                    margin-left: 15px;
-                    text-align: center;
-                }
-            }
-        }
-    }
-
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1515px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1515px) {
+    #main-component {
         .middle {
             .second-middle {
                 .second-middle-row {

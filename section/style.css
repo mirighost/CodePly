@@ -6,8 +6,11 @@
 }
 
 #main-component .left {
-  background-color: #000000;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: #363636;
   height: 100%;
+  border-radius: 5px;
 }
 
 #main-component .left .button {
@@ -72,19 +75,17 @@
 
 #main-component .left .left-container .left-bottom .bottom-list .bottom-list:hover {
   background-color: grey;
-<<<<<<< HEAD
-=======
   border-radius: 30px;
->>>>>>> 806c7f8bbd8e8f848bc056db4da1c33d4219e66f
 }
 
 #main-component .middle {
-  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 #main-component .middle .first-middle {
   font-family: 'Lexend Deca', sans-serif;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   background-color: #202020;
   padding-bottom: 45px;
   border-radius: 5px;
@@ -147,8 +148,8 @@
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow {
-  -webkit-box-shadow: 0px 0px 12px -3px #000000;
-  box-shadow: 0px 0px 12px -3px #000000;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -165,12 +166,11 @@
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow .middle-icon {
-  padding-top: 10px;
-  background-color: #3b3b3b;
+  padding-top: 20px;
+  background-color: #363636;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 15px;
   padding-right: 3%;
   padding-left: 3%;
 }
@@ -213,7 +213,7 @@
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first {
-  background-color: #3b3b3b;
+  background-color: #363636;
   margin-bottom: 27px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -314,19 +314,22 @@
 }
 
 @media only screen and (max-width: 991px) {
-  #main-component #main-component .left {
+  #main-component .left {
     text-align: center;
   }
-  #main-component #main-component .right {
+  #main-component .middle {
+    margin-top: 15px;
+  }
+  #main-component .right {
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  #main-component #main-component .left .button {
+  #main-component .left .button {
     font-size: 15px;
   }
-  #main-component #main-component .left .left-containers {
+  #main-component .left .left-containers {
     margin-left: 15px;
     text-align: center;
   }
