@@ -72,6 +72,10 @@
 
 #main-component .left .left-container .left-bottom .bottom-list .bottom-list:hover {
   background-color: grey;
+<<<<<<< HEAD
+=======
+  border-radius: 30px;
+>>>>>>> 806c7f8bbd8e8f848bc056db4da1c33d4219e66f
 }
 
 #main-component .middle {
