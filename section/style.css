@@ -60,11 +60,16 @@
 
 #main-component .left .left-container .links .list .contents .link {
   text-decoration: none;
-  color: #ffffff;
+  color: #cfcfcf;
+  padding-right: 10px;
 }
 
 #main-component .left .left-container .links .list .contents .link .ma-1 {
   margin-top: -2px;
+}
+
+#main-component .left .left-container .links .list .contents .link .left-p {
+  margin-left: 5px;
 }
 
 #main-component .left .left-container .links .list .features {
