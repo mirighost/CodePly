@@ -33,7 +33,7 @@
 
 #main-component .left .left-container .links {
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 20px;
+  font-size: 13px;
   margin-top: 5%;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -47,35 +47,34 @@
   padding-left: 5%;
 }
 
-#main-component .left .left-container .links .contents:hover {
-  background-color: #919191;
+#main-component .left .left-container .links .list .contents {
   border-radius: 30px;
+  padding-right: 10px;
+  margin-top: 5px;
+  padding-left: 5px;
 }
 
-#main-component .left .left-container .links .link {
+#main-component .left .left-container .links .list .contents:hover {
+  background-color: #919191;
+}
+
+#main-component .left .left-container .links .list .contents .link {
   text-decoration: none;
   color: #ffffff;
-  padding-left: 2%;
 }
 
-#main-component .left .left-container .left-bottom .bottom-list {
-  list-style-type: none;
-  padding-left: 5%;
+#main-component .left .left-container .links .list .contents .link .ma-1 {
+  margin-top: -2px;
 }
 
-#main-component .left .left-container .left-bottom .bottom-list .bottom-list .features {
+#main-component .left .left-container .links .list .features {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Lexend Deca', sans-serif;
 }
 
-#main-component .left .left-container .left-bottom .bottom-list .bottom-list .features .fa-star {
+#main-component .left .left-container .links .list .features .fa-star {
   margin-right: 2%;
-}
-
-#main-component .left .left-container .left-bottom .bottom-list .bottom-list:hover {
-  background-color: grey;
-  border-radius: 30px;
 }
 
 #main-component .middle {

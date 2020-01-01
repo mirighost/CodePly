@@ -31,7 +31,7 @@
 
             .links {
                 font-family: 'Lexend Deca', sans-serif;
-                font-size: 20px;
+                font-size: 13px;
                 margin-top: 5%;
                 text-overflow: ellipsis;
                 overflow: hidden;
@@ -42,47 +42,36 @@
 
                 .list {
                     padding-left: 5%;
-                }
 
+                    .contents {
+                        border-radius: 30px;
+                        padding-right: 10px;
+                        margin-top: 5px;
+                        padding-left: 5px;
 
-                .contents:hover {
-                    background-color: #919191;
-                    border-radius: 30px;
-                }
+                        &:hover {
+                            background-color: #919191;
+                        }
 
-                .link {
-                    text-decoration: none;
-                    color: #ffffff;
-                    padding-left: 2%;
-
-                }
-            }
-
-            .left-bottom {
-
-                .bottom-list {
-                    list-style-type: none;
-                    padding-left: 5%;
-
-                    .bottom-list {
-
-                        .features {
+                        .link {
                             text-decoration: none;
                             color: #ffffff;
-                            font-family: 'Lexend Deca', sans-serif;
-
-                            .fa-star {
-                                margin-right: 2%;
+                            .ma-1{
+                                margin-top: -2px;
                             }
                         }
                     }
 
-                    .bottom-list:hover {
-                        background-color: grey;
-                        border-radius: 30px;
+                    .features {
+                        text-decoration: none;
+                        color: #ffffff;
+                        font-family: 'Lexend Deca', sans-serif;
+
+                        .fa-star {
+                            margin-right: 2%;
+                        }
                     }
                 }
-
             }
         }
     }
