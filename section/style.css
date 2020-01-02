@@ -361,12 +361,41 @@
   border-radius: 5px;
 }
 
-#main-component .right .right-container {
+#main-component .right .right-containers {
   width: 100%;
 }
 
-#main-component .right .right-container .right-links {
-  background-color: #ffffff;
+#main-component .right .right-containers .right-links {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  margin-top: 5%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 170px;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 250%;
+}
+
+#main-component .right .right-containers .right-links .right-list {
+  padding-left: 5%;
+}
+
+#main-component .right .right-containers .right-links .right-list #rh3 {
+  color: #2196f3;
+}
+
+#main-component .right .right-containers .right-links .right-list .right-contents {
+  border-radius: 30px;
+  padding-right: 10px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+#main-component .right .right-containers .right-links .right-list .right-contents .right-link {
+  text-decoration: none;
+  color: #cfcfcf;
+  padding-right: 10px;
 }
 
 @media only screen and (max-width: 991px) {
