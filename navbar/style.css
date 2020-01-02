@@ -1,4 +1,4 @@
-.navbar {
+body .navbar {
   background-color: #000000;
   position: -webkit-sticky;
   position: sticky;
@@ -6,19 +6,19 @@
   top: 0;
 }
 
-.navbar .navbar-brand {
+body .navbar .navbar-brand {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
 }
 
-.navbar .fas {
+body .navbar .fas {
   text-align: right;
   color: grey;
 }
 
-.navbar .search-bar {
+body .navbar .search-bar {
   color: white;
   background-color: #202020;
   border: transparent;
@@ -32,18 +32,38 @@
   margin-right: -30px;
 }
 
-.navbar .search-bar:placeholder-shown {
+body .navbar .search-bar:placeholder-shown {
   color: #2196f3;
 }
 
-.navbar .search-bar:hover {
+body .navbar .search-bar:hover {
   border-bottom: 1px white;
 }
 
-.navbar .form-inline .button {
+body .navbar .form-inline .button {
   background-color: transparent;
   border: transparent;
   color: #ffffff;
   outline: transparent;
+}
+
+body .navbar-extra {
+  background-color: #202020;
+  width: 100%;
+  height: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0px 0px 4px;
+  padding: 8px 0px;
+  font-size: .625rem;
+  letter-spacing: 2px;
+}
+
+body .navbar-extra .text-link {
+  text-decoration: none;
+  color: white;
+  line-height: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
