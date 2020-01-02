@@ -158,7 +158,6 @@
 #main-component .middle .second-middle {
   font-family: 'Lexend Deca', sans-serif;
   margin-top: 27px;
-  cursor: pointer;
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow {
@@ -168,6 +167,7 @@
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  cursor: pointer;
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow .picture1 {
@@ -273,6 +273,7 @@
   border-width: 0.5px;
   color: white;
   font-size: 0.7rem;
+  outline: transparent;
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .second-form .button-arrow {
@@ -280,6 +281,7 @@
   border-color: transparent;
   font-size: large;
   color: #2196f3;
+  outline: transparent;
 }
 
 #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .second-form .right-button {

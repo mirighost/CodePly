@@ -80,7 +80,7 @@
                         }
                     }
 
-                    #left-hr{
+                    #left-hr {
                         color: #ffffff;
                         background-color: #3e3e3e;
                     }
@@ -158,7 +158,6 @@
         .second-middle {
             font-family: 'Lexend Deca', sans-serif;
             margin-top: 27px;
-            cursor: pointer;
 
             .second-middle-row {
                 .main-component-shadow {
@@ -168,6 +167,7 @@
                     border-bottom-right-radius: 5px;
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
+                    cursor: pointer;
 
                     // picture of section
                     .picture1 {
@@ -269,6 +269,7 @@
                                 border-width: 0.5px;
                                 color: white;
                                 font-size: 0.7rem;
+                                outline: transparent;
                             }
 
                             .button-arrow {
@@ -276,6 +277,7 @@
                                 border-color: transparent;
                                 font-size: large;
                                 color: #2196f3;
+                                outline: transparent;
                             }
 
                             .right-button {
