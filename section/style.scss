@@ -368,20 +368,41 @@
         height: 100%;
         border-radius: 5px;
 
-        .right-container {
+        .right-containers{
             width: 100%;
 
 
-            .right-links {
-                background-color: #ffffff;
+            .right-links{
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 16px;
+                margin-top: 5%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 170px;
+                white-space: nowrap;
+                width: 100%;
+                line-height: 250%;
 
-                .right-list {
+                .right-list{
+                    padding-left: 5%;
 
-                    #rh2 {}
+                    #rh3{
+                        color: #2196f3;
 
-                    .right-contents {
+                    }
 
-                        .right-link {}
+                    .right-contents{
+                        border-radius: 30px;
+                        padding-right: 10px;
+                        margin-top: 5px;
+                        padding-left: 5px;
+
+                        .right-link{
+                            text-decoration: none;
+                            color: #cfcfcf;
+                            padding-right: 10px;
+
+                        }
                     }
                 }
             }
