@@ -23,36 +23,46 @@ body .navbar .navbar-brand {
 
 body .navbar .fas {
   text-align: right;
-  color: grey;
+  color: #f7f7f7;
+  font-size: 20px;
+}
+
+body .navbar .fas2:hover {
+  padding-bottom: 5px;
 }
 
 body .navbar .search-bar {
   color: white;
-  background-color: #202020;
+  background-color: #141414;
   border: transparent;
   border-radius: 5px;
-  height: 40px;
-  width: 350px;
-  padding: 8px;
+  height: 30px;
+  width: auto;
+  padding: 4px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: bold;
   outline: transparent;
-  margin-right: -30px;
+  margin-right: -50px;
 }
 
 body .navbar .search-bar:placeholder-shown {
   color: #2196f3;
 }
 
-body .navbar .search-bar:hover {
-  border-bottom: 1px white;
+body .navbar .fa-search {
+  margin-left: -60px;
 }
 
-body .navbar .form-inline .button {
+body .navbar .button {
   background-color: transparent;
   border: transparent;
   color: #ffffff;
   outline: transparent;
+}
+
+body .navbar .nav-icon {
+  padding-top: 7px;
+  font-size: 20px;
 }
 
 body .navbar-extra {
@@ -76,13 +86,26 @@ body .navbar-extra .text-link {
 }
 
 @media only screen and (max-width: 992px) {
+  body .navbar {
+    font-size: 1rem;
+  }
   body .navbar .navbar-brand-c {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: 30px;
   }
   body .navbar .navbar-brand {
+    display: none;
+  }
+  body .navbar .fas {
+    font-size: 80%;
+  }
+  body .navbar .nav-icon {
+    margin-left: 100%;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body .navbar .search-bar {
     display: none;
   }
 }
