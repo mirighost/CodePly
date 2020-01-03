@@ -8,7 +8,7 @@ body {
         top: 0;
 
         // CodePLY Logo Written
-        .navbar-brand-c{
+        .navbar-brand-c {
             font-family: 'Lexend Deca', sans-serif;
             font-size: 40px;
             font-weight: bold;
@@ -16,6 +16,7 @@ body {
             text-decoration: none;
 
         }
+
         .navbar-brand {
             font-family: 'Lexend Deca', sans-serif;
             font-size: 40px;
@@ -26,40 +27,47 @@ body {
         // Right-icons
         .fas {
             text-align: right;
-            color: grey;
+            color: rgb(247, 247, 247);
+            font-size: 20px;
+        }
+
+        .fas2:hover {
+            padding-bottom: 5px;
         }
 
         .search-bar {
             color: white;
-            background-color: #202020;
+            background-color: #141414;
             border: transparent;
             border-radius: 5px;
-            height: 40px;
-            width: 350px;
-            padding: 8px;
+            height: 30px;
+            width: auto;
+            padding: 4px;
             font-family: 'Lexend Deca', sans-serif;
             font-weight: bold;
             outline: transparent;
-            margin-right: -30px;
+            margin-right: -50px;
         }
 
         .search-bar:placeholder-shown {
             color: #2196f3;
         }
 
-        .search-bar:hover {
-            border-bottom: 1px white;
+        .fa-search {
+            margin-left: -60px;
         }
 
-        .form-inline {
-            .button {
-                background-color: transparent;
-                border: transparent;
-                color: #ffffff;
-                outline: transparent;
-            }
+        .button {
+            background-color: transparent;
+            border: transparent;
+            color: #ffffff;
+            outline: transparent;
         }
 
+        .nav-icon {
+            padding-top: 7px;
+            font-size: 20px;
+        }
     }
 
     .navbar-extra {
@@ -79,7 +87,6 @@ body {
             color: white;
             line-height: 1rem;
             cursor: pointer;
-
         }
     }
 }
@@ -87,25 +94,34 @@ body {
 @media only screen and (max-width: 992px) {
     body {
         .navbar {
-            .navbar-brand-c{
-                font-family: 'Lexend Deca', sans-serif;
-                font-size: 40px;
-                font-weight: bold;
-                color: #ffffff;
-    
+            font-size: 1rem;
+
+            .navbar-brand-c {
+                font-size: 30px;
             }
+
             .navbar-brand {
                 display: none;
             }
 
-        }
+            .fas {
+                font-size: 80%;
+            }
 
-        .navbar-extra {
-
-            .text-link {
-                
+            .nav-icon {
+                margin-left: 100%;
+                font-size: 80%;
             }
         }
     }
+}
 
+@media only screen and (max-width: 599px) {
+    body {
+        .navbar {
+            .search-bar {
+                display: none;
+            }
+        }
+    }
 }
