@@ -6,6 +6,14 @@ body .navbar {
   top: 0;
 }
 
+body .navbar .navbar-brand-c {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 body .navbar .navbar-brand {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 40px;
@@ -65,5 +73,17 @@ body .navbar-extra .text-link {
   color: white;
   line-height: 1rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  body .navbar .navbar-brand-c {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  body .navbar .navbar-brand {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
