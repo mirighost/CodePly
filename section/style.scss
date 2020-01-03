@@ -433,7 +433,7 @@
 @media only screen and (max-width: 991px) {
     #main-component {
         .left {
-            text-align: center;
+            display: none;
         }
 
         .middle {
@@ -441,7 +441,7 @@
         }
 
         .right {
-            text-align: center;
+            text-align: left;
         }
     }
 }

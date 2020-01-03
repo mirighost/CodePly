@@ -422,13 +422,13 @@
 
 @media only screen and (max-width: 991px) {
   #main-component .left {
-    text-align: center;
+    display: none;
   }
   #main-component .middle {
     margin-top: 15px;
   }
   #main-component .right {
-    text-align: center;
+    text-align: left;
   }
 }
 
