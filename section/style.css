@@ -347,22 +347,9 @@
   border-width: 0px;
 }
 
-<<<<<<< HEAD
-.right {
-  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  height: 100%;
-  border-radius: 5px;
-  background-color: #212121;
-}
-
-.right .right-containers {
-  width: 100%;
-=======
 #main-component .right {
   padding: 0px;
   height: 100%;
->>>>>>> 2823f0f0eafc5ae503dad6195a36fe3c01d83ede
 }
 
 #main-component .right .right-containers .right-links {
@@ -376,6 +363,7 @@
   border-radius: 5px;
   padding-right: 6%;
   padding-bottom: 4px;
+  cursor: pointer;
 }
 
 #main-component .right .right-containers .right-links .right-list {
@@ -412,18 +400,8 @@
 
 #main-component .right .right-containers .right-links .right-list .right-contents .right-link {
   text-decoration: none;
-<<<<<<< HEAD
-  color: #cfcfcf;
-  padding-right: 10px;
-}
-
-.right-bottom-containers {
-  width: 100%;
-  margin-top: 10px;
-=======
   color: #eeeaea;
   font-size: 0.9rem;
->>>>>>> 2823f0f0eafc5ae503dad6195a36fe3c01d83ede
 }
 
 #main-component .right .right-containers .right-bottom-links {
@@ -431,16 +409,39 @@
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   background-color: #212121;
   margin-top: 10px;
-  font-family: 'Lexend Deca', sans-serif;
+  height: 100%;
   border-radius: 5px;
 }
 
 #main-component .right .right-containers .right-bottom-links #rbh4 {
   color: #2196f3;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
-#main-component .right .right-containers .right-bottom-links .rbh-sp {
+#main-component .right .right-containers .rb-div {
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 22px;
+  padding: 4px;
   color: white;
+}
+
+#main-component .right .right-containers .rb-btn {
+  border-radius: 20px;
+  background-color: #555555;
+  padding: 5px 5% 5px 5%;
+  outline: transparent;
+  margin-top: 10px;
+}
+
+#main-component .right .right-containers .rb-btn:hover {
+  background-color: #666666;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+#main-component .right .right-containers .rb-btn .rb-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 991px) {

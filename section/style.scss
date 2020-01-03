@@ -370,6 +370,7 @@
                 border-radius: 5px;
                 padding-right: 6%;
                 padding-bottom: 4px;
+                cursor: pointer;
 
                 .right-list {
                     padding-left: 0%;
@@ -414,15 +415,40 @@
                 box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                 background-color: #212121;
                 margin-top: 10px;
-                font-family: 'Lexend Deca', sans-serif;
+                height: 100%;
                 border-radius: 5px;
 
                 #rbh4 {
                     color: #2196f3;
+                    font-family: 'Lexend Deca', sans-serif;
+                }
+            }
+            .rb-div {
+                font-family: 'Lexend Deca', sans-serif;
+                line-height: 22px;
+                padding: 4px;
+                color: white;
+            }
+
+            .rb-btn{
+                border-radius: 20px;
+                background-color: #555555;
+                padding: 5px 5% 5px 5%;
+                outline: transparent;
+                margin-top: 10px;
+
+                &:hover{
+                background-color: lighten($color: #666666, $amount: 0);
+                transition: 500ms;
                 }
 
-                .rbh-sp {
-                    color: white;
+                .rb-link{
+                    text-decoration: none;
+                    color: #ffffff;
+
+                    .rb-span{
+
+                    }
                 }
             }
         }
