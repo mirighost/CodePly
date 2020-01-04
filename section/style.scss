@@ -35,45 +35,47 @@
                 font-family: 'Lexend Deca', sans-serif;
                 font-size: 16px;
                 margin-top: 5%;
-                text-overflow: ellipsis;
-                overflow: hidden;
-                white-space: nowrap;
+
                 width: 100%;
                 line-height: 250%;
 
                 .list {
-                    padding-left: 5%;
-                }
+                    padding-left: 4%;
 
-                .contents {
-                    border-radius: 30px;
-                    padding-right: 10px;
-                    margin-top: 5px;
-                    padding-left: 5px;
-
-                    &:hover {
-                        background-color: #3d3d3d;
-                        transition: 400ms;
-                    }
-
-                    .link {
-                        text-decoration: none;
-                        color: #cfcfcf;
+                    .contents {
+                        border-radius: 30px;
                         padding-right: 10px;
+                        margin-top: 5px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        color: #b8b8b8;
 
-                        .ma-1 {
-                            margin-top: -2px;
+                        &:hover {
+                            background-color: #3d3d3d;
+                            transition: 400ms;
                         }
 
-                        .left-p {
-                            margin-left: 5px;
+                        .link {
+                            text-decoration: none;
+                            color: #cfcfcf;
+                            padding-right: 10px;
+
+                            .ma-1 {
+                                margin-top: -2px;
+                                margin-left: 5%;
+                            }
+
+                            .left-p {
+                                margin-left: 5px;
+                            }
                         }
                     }
                 }
 
                 .features {
                     text-decoration: none;
-                    color: #ffffff;
+                    color: #b8b8b8;
                     font-family: 'Lexend Deca', sans-serif;
 
                     .fas {
@@ -360,14 +362,11 @@
         .right-containers {
 
             .right-links {
-                -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-                box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                 font-family: 'Lexend Deca', sans-serif;
                 font-size: 16px;
                 width: 100%;
                 line-height: 250%;
                 background-color: #212121;
-                border-radius: 5px;
                 padding-right: 6%;
                 padding-bottom: 4px;
                 cursor: pointer;
@@ -411,77 +410,73 @@
             }
 
             .right-bottom-links {
-                -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-                box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                 background-color: #212121;
                 margin-top: 10px;
                 height: 100%;
-                border-radius: 5px;
-
-
+                padding-right: 10%;
+                padding-left: 7%;
 
                 #rbh4 {
                     padding-top: 25px;
                     color: #2196f3;
-                    margin-left: 25px;
                     font-family: 'Lexend Deca', sans-serif;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
                 }
 
-            }
-
-            .rb-div {
-                font-family: 'Lexend Deca', sans-serif;
-                line-height: 22px;
-                padding: 4px;
-                color: white;
-                margin-left: 25px;
-            }
-
-            .rb-btn {
-                border-radius: 20px;
-                background-color: #555555;
-                padding: 5px 5% 5px 5%;
-                margin-top: 20px;
-                border: transparent;
-                margin-left: 25px;
-
-                &:hover {
-                    background-color: lighten($color: #666666, $amount: 0);
-                    transition: 200ms;
-
-                }
-            }
-
-            .rb-link {
-                text-decoration: none;
-                color: #ffffff;
-            }
-
-            .rb-btn-joinfree {
-                border: 1px solid;
-                border-radius: 7px;
-                background-color: transparent;
-                border-color: #2196f3;
-                height: 50px;
-                width: 150px;
-                margin-left: 25px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                font-weight: lighter;
-
-                &:hover {
-                    background-color: rgba(21, 50, 71, 0.6);
-                    transition-duration: 500ms;
-                }
-
-                .rb-link-joinfree {
-                    color: #2196f3;
-                    font-family: 'Roboto', sans-serif;
-                    letter-spacing: 1px;
+                .rb-div {
+                    font-family: 'Lexend Deca', sans-serif;
                     line-height: 22px;
-                    text-align: center;
-                    text-decoration: none solid;
+                    padding: 4px;
+                    color: white;
+                }
 
+                .rb-btn {
+                    border-radius: 20px;
+                    background-color: #555555;
+                    padding: 5px 5% 5px 5%;
+                    margin-top: 20px;
+                    border: transparent;
+
+                    &:hover {
+                        background-color: lighten($color: #666666, $amount: 0);
+                        transition: 200ms;
+                    }
+
+                    .rb-link {
+                        text-decoration: none;
+                        color: #ffffff;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }
+
+                .rb-btn-joinfree {
+                    border: 1px solid;
+                    border-radius: 7px;
+                    background-color: transparent;
+                    border-color: #2196f3;
+                    height: 50px;
+                    width: auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-weight: lighter;
+
+                    &:hover {
+                        background-color: rgba(21, 50, 71, 0.6);
+                        transition-duration: 500ms;
+                    }
+
+                    .rb-link-joinfree {
+                        color: #2196f3;
+                        font-family: 'Roboto', sans-serif;
+                        letter-spacing: 1px;
+                        line-height: 22px;
+                        text-align: center;
+                        text-decoration: none solid;
+                    }
                 }
             }
         }
@@ -491,16 +486,36 @@
 // Media Section
 @media only screen and (max-width: 991px) {
     #main-component {
-        .left {
-            display: none;
-        }
-
         .middle {
             margin-top: 15px;
         }
 
         .right {
             text-align: left;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #main-component {
+        .left {
+            display: none;
+        }
+
+        .middle {
+            .second-middle {
+                .second-middle-row {
+                    .main-component-shadow {
+                        .form-first {
+                            .buttons4 {
+                                .form-buttons {
+                                    font-size: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -564,33 +579,33 @@
     }
 }
 
-// right-bottom media section
-@media only screen and (min-width: 992px) {
-    #main-component {
+// // right-bottom media section
+// @media only screen and (min-width: 992px) {
+//     #main-component {
 
-        .right-bottom-links {
-            #rbh4 {}
+//         .right-bottom-links {
+//             #rbh4 {}
 
-        }
+//         }
 
-        .rb-div {
+//         .rb-div {
 
-        }
+//         }
 
-        .rb-btn {
+//         .rb-btn {
 
-            &:hover {}
-        }
+//             &:hover {}
+//         }
 
-        .rb-link {
+//         .rb-link {
 
-        }
+//         }
 
-        .rb-btn-joinfree {
+//         .rb-btn-joinfree {
 
-            &:hover {}
+//             &:hover {}
 
-            .rb-link-joinfree {}
-        }
-    }
-}
+//             .rb-link-joinfree {}
+//         }
+//     }
+// }
