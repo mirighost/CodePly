@@ -418,37 +418,70 @@
                 height: 100%;
                 border-radius: 5px;
 
+
+
                 #rbh4 {
+                    padding-top: 25px;
                     color: #2196f3;
+                    margin-left: 25px;
                     font-family: 'Lexend Deca', sans-serif;
                 }
+
             }
+
             .rb-div {
                 font-family: 'Lexend Deca', sans-serif;
                 line-height: 22px;
                 padding: 4px;
                 color: white;
+                margin-left: 25px;
             }
 
-            .rb-btn{
+            .rb-btn {
                 border-radius: 20px;
                 background-color: #555555;
                 padding: 5px 5% 5px 5%;
-                outline: transparent;
-                margin-top: 10px;
+                margin-top: 20px;
+                border: transparent;
+                margin-left: 25px;
 
-                &:hover{
-                background-color: lighten($color: #666666, $amount: 0);
-                transition: 500ms;
+                &:hover {
+                    background-color: lighten($color: #666666, $amount: 0);
+                    transition: 200ms;
+
+                }
+            }
+
+            .rb-link {
+                text-decoration: none;
+                color: #ffffff;
+            }
+
+            .rb-btn-joinfree {
+                border: 1px solid;
+                border-radius: 7px;
+                background-color: transparent;
+                border-color: #2196f3;
+                height: 50px;
+                width: 150px;
+                margin-left: 25px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-weight: lighter;
+
+                &:hover {
+                    background-color: rgba(21, 50, 71, 0.6);
+                    transition-duration: 500ms;
                 }
 
-                .rb-link{
-                    text-decoration: none;
-                    color: #ffffff;
+                .rb-link-joinfree {
+                    color: #2196f3;
+                    font-family: 'Roboto', sans-serif;
+                    letter-spacing: 1px;
+                    line-height: 22px;
+                    text-align: center;
+                    text-decoration: none solid;
 
-                    .rb-span{
-
-                    }
                 }
             }
         }
@@ -527,6 +560,37 @@
                     }
                 }
             }
+        }
+    }
+}
+
+// right-bottom media section
+@media only screen and (min-width: 992px) {
+    #main-component {
+
+        .right-bottom-links {
+            #rbh4 {}
+
+        }
+
+        .rb-div {
+
+        }
+
+        .rb-btn {
+
+            &:hover {}
+        }
+
+        .rb-link {
+
+        }
+
+        .rb-btn-joinfree {
+
+            &:hover {}
+
+            .rb-link-joinfree {}
         }
     }
 }

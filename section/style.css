@@ -414,7 +414,9 @@
 }
 
 #main-component .right .right-containers .right-bottom-links #rbh4 {
+  padding-top: 25px;
   color: #2196f3;
+  margin-left: 25px;
   font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -423,25 +425,56 @@
   line-height: 22px;
   padding: 4px;
   color: white;
+  margin-left: 25px;
 }
 
 #main-component .right .right-containers .rb-btn {
   border-radius: 20px;
   background-color: #555555;
   padding: 5px 5% 5px 5%;
-  outline: transparent;
-  margin-top: 10px;
+  margin-top: 20px;
+  border: transparent;
+  margin-left: 25px;
 }
 
 #main-component .right .right-containers .rb-btn:hover {
   background-color: #666666;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
-#main-component .right .right-containers .rb-btn .rb-link {
+#main-component .right .right-containers .rb-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+#main-component .right .right-containers .rb-btn-joinfree {
+  border: 1px solid;
+  border-radius: 7px;
+  background-color: transparent;
+  border-color: #2196f3;
+  height: 50px;
+  width: 150px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+#main-component .right .right-containers .rb-btn-joinfree:hover {
+  background-color: rgba(21, 50, 71, 0.6);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+#main-component .right .right-containers .rb-btn-joinfree .rb-link-joinfree {
+  color: #2196f3;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-align: center;
+  -webkit-text-decoration: none solid;
+          text-decoration: none solid;
 }
 
 @media only screen and (max-width: 991px) {
