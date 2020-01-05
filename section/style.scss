@@ -72,12 +72,13 @@
                                 margin-left: 5px;
                             }
                         }
+
                         .features {
                             text-decoration: none;
                             color: #b8b8b8;
                             font-family: 'Lexend Deca', sans-serif;
                             margin-left: 5%;
-        
+
                             .fas3 {
                                 margin-right: 2%;
                             }
@@ -360,8 +361,6 @@
     .right {
         padding: 0px;
         height: 100%;
-        position: sticky;
-        top: -355px;
 
         .right-containers {
 
@@ -386,7 +385,8 @@
                         text-overflow: ellipsis;
                         overflow: hidden;
                         white-space: nowrap;
-                        font-size: 1.4rem;cursor: text;
+                        font-size: 1.4rem;
+                        cursor: text;
                     }
 
                     .right-contents {
@@ -494,20 +494,18 @@
 // Media Section
 @media only screen and (max-width: 991px) {
     #main-component {
-        .left{
+        .left {
             top: 63px;
         }
+
         .middle {
             margin-top: 15px;
         }
 
         .right {
-            .right-containers{
+            .right-containers {
                 position: absolute;
                 width: 100%;
-                // .right-links{
-
-                // }
             }
         }
     }
@@ -549,10 +547,11 @@
                 text-align: center;
             }
         }
-        .right{
+
+        .right {
             position: sticky;
-            top: 90px;
-            margin-bottom: 20px;
+            top: -355px;
+            margin-bottom: 36px;
         }
     }
 }
@@ -600,34 +599,3 @@
         }
     }
 }
-
-// // right-bottom media section
-// @media only screen and (min-width: 992px) {
-//     #main-component {
-
-//         .right-bottom-links {
-//             #rbh4 {}
-
-//         }
-
-//         .rb-div {
-
-//         }
-
-//         .rb-btn {
-
-//             &:hover {}
-//         }
-
-//         .rb-link {
-
-//         }
-
-//         .rb-btn-joinfree {
-
-//             &:hover {}
-
-//             .rb-link-joinfree {}
-//         }
-//     }
-// }

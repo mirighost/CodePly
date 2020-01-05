@@ -355,9 +355,6 @@
 #main-component .right {
   padding: 0px;
   height: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -355px;
 }
 
 #main-component .right .right-containers .right-links {
@@ -521,8 +518,8 @@
   #main-component .right {
     position: -webkit-sticky;
     position: sticky;
-    top: 90px;
-    margin-bottom: 20px;
+    top: -355px;
+    margin-bottom: 36px;
   }
 }
 
