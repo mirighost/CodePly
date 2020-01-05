@@ -494,6 +494,9 @@
 // Media Section
 @media only screen and (max-width: 991px) {
     #main-component {
+        .left{
+            top: 63px;
+        }
         .middle {
             margin-top: 15px;
         }
@@ -545,6 +548,11 @@
                 margin-left: 15px;
                 text-align: center;
             }
+        }
+        .right{
+            position: sticky;
+            top: 90px;
+            margin-bottom: 20px;
         }
     }
 }
