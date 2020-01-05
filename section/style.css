@@ -360,7 +360,7 @@
   top: -355px;
 }
 
-#main-component .right .right-containers .right-links {
+#main-component .right .right-links {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 16px;
   width: 100%;
@@ -370,14 +370,14 @@
   padding-bottom: 4px;
 }
 
-#main-component .right .right-containers .right-links .right-list {
+#main-component .right .right-links .right-list {
   padding-left: 0%;
   padding-top: 20px;
   padding-left: 7%;
   cursor: default;
 }
 
-#main-component .right .right-containers .right-links .right-list #rh4 {
+#main-component .right .right-links .right-list #rh4 {
   color: #2196f3;
   font-weight: bold;
   text-overflow: ellipsis;
@@ -387,7 +387,7 @@
   cursor: text;
 }
 
-#main-component .right .right-containers .right-links .right-list .right-contents {
+#main-component .right .right-links .right-list .right-contents {
   border-radius: 30px;
   padding-right: 10px;
   margin-top: 5px;
@@ -399,19 +399,19 @@
   cursor: default;
 }
 
-#main-component .right .right-containers .right-links .right-list .right-contents:hover {
+#main-component .right .right-links .right-list .right-contents:hover {
   background-color: #3d3d3d;
   -webkit-transition: 400ms;
   transition: 400ms;
 }
 
-#main-component .right .right-containers .right-links .right-list .right-contents .right-link {
+#main-component .right .right-links .right-list .right-contents .right-link {
   text-decoration: none;
   color: #eeeaea;
   font-size: 0.9rem;
 }
 
-#main-component .right .right-containers .right-bottom-links {
+#main-component .right .right-bottom-links {
   background-color: #212121;
   margin-top: 10px;
   height: 100%;
@@ -420,7 +420,7 @@
   cursor: default;
 }
 
-#main-component .right .right-containers .right-bottom-links #rbh4 {
+#main-component .right .right-bottom-links #rbh4 {
   padding-top: 25px;
   color: #2196f3;
   font-family: 'Lexend Deca', sans-serif;
@@ -430,7 +430,7 @@
   cursor: text;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-div {
+#main-component .right .right-bottom-links .rb-div {
   font-family: 'Lexend Deca', sans-serif;
   line-height: 22px;
   padding: 4px;
@@ -438,7 +438,7 @@
   cursor: text;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn {
+#main-component .right .right-bottom-links .rb-btn {
   border-radius: 20px;
   background-color: #555555;
   padding: 5px 5% 5px 5%;
@@ -446,13 +446,13 @@
   border: transparent;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn:hover {
+#main-component .right .right-bottom-links .rb-btn:hover {
   background-color: #666666;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn .rb-link {
+#main-component .right .right-bottom-links .rb-btn .rb-link {
   text-decoration: none;
   color: #ffffff;
   text-overflow: ellipsis;
@@ -460,7 +460,7 @@
   white-space: nowrap;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn-joinfree {
+#main-component .right .right-bottom-links .rb-btn-joinfree {
   border: 1px solid;
   border-radius: 7px;
   background-color: transparent;
@@ -472,13 +472,13 @@
   font-weight: lighter;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn-joinfree:hover {
+#main-component .right .right-bottom-links .rb-btn-joinfree:hover {
   background-color: rgba(21, 50, 71, 0.6);
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
 
-#main-component .right .right-containers .right-bottom-links .rb-btn-joinfree .rb-link-joinfree {
+#main-component .right .right-bottom-links .rb-btn-joinfree .rb-link-joinfree {
   color: #2196f3;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -517,12 +517,6 @@
   #main-component .left .left-containers {
     margin-left: 15px;
     text-align: center;
-  }
-  #main-component .right {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 90px;
-    margin-bottom: 20px;
   }
 }
 

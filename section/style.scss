@@ -72,12 +72,13 @@
                                 margin-left: 5px;
                             }
                         }
+
                         .features {
                             text-decoration: none;
                             color: #b8b8b8;
                             font-family: 'Lexend Deca', sans-serif;
                             margin-left: 5%;
-        
+
                             .fas3 {
                                 margin-right: 2%;
                             }
@@ -364,127 +365,129 @@
         top: -355px;
 
         .right-containers {
+            
+        }
 
-            .right-links {
-                font-family: 'Lexend Deca', sans-serif;
-                font-size: 16px;
-                width: 100%;
-                line-height: 250%;
-                background-color: #212121;
-                padding-right: 6%;
-                padding-bottom: 4px;
+        .right-links {
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 16px;
+            width: 100%;
+            line-height: 250%;
+            background-color: #212121;
+            padding-right: 6%;
+            padding-bottom: 4px;
 
-                .right-list {
-                    padding-left: 0%;
-                    padding-top: 20px;
-                    padding-left: 7%;
-                    cursor: default;
-
-                    #rh4 {
-                        color: #2196f3;
-                        font-weight: bold;
-                        text-overflow: ellipsis;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        font-size: 1.4rem;cursor: text;
-                    }
-
-                    .right-contents {
-                        border-radius: 30px;
-                        padding-right: 10px;
-                        margin-top: 5px;
-                        padding-left: 5px;
-                        color: #faf8f8;
-                        text-overflow: ellipsis;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        cursor: default;
-
-                        &:hover {
-                            background-color: #3d3d3d;
-                            transition: 400ms;
-                        }
-
-                        .right-link {
-                            text-decoration: none;
-                            color: #eeeaea;
-                            font-size: 0.9rem;
-                        }
-                    }
-                }
-            }
-
-            .right-bottom-links {
-                background-color: #212121;
-                margin-top: 10px;
-                height: 100%;
-                padding-right: 10%;
+            .right-list {
+                padding-left: 0%;
+                padding-top: 20px;
                 padding-left: 7%;
                 cursor: default;
 
-                #rbh4 {
-                    padding-top: 25px;
+                #rh4 {
                     color: #2196f3;
-                    font-family: 'Lexend Deca', sans-serif;
+                    font-weight: bold;
                     text-overflow: ellipsis;
                     overflow: hidden;
                     white-space: nowrap;
+                    font-size: 1.4rem;
                     cursor: text;
                 }
 
-                .rb-div {
-                    font-family: 'Lexend Deca', sans-serif;
-                    line-height: 22px;
-                    padding: 4px;
-                    color: white;
-                    cursor: text;
-                }
-
-                .rb-btn {
-                    border-radius: 20px;
-                    background-color: #555555;
-                    padding: 5px 5% 5px 5%;
-                    margin-top: 20px;
-                    border: transparent;
+                .right-contents {
+                    border-radius: 30px;
+                    padding-right: 10px;
+                    margin-top: 5px;
+                    padding-left: 5px;
+                    color: #faf8f8;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    cursor: default;
 
                     &:hover {
-                        background-color: lighten($color: #666666, $amount: 0);
-                        transition: 200ms;
+                        background-color: #3d3d3d;
+                        transition: 400ms;
                     }
 
-                    .rb-link {
+                    .right-link {
                         text-decoration: none;
-                        color: #ffffff;
-                        text-overflow: ellipsis;
-                        overflow: hidden;
-                        white-space: nowrap;
+                        color: #eeeaea;
+                        font-size: 0.9rem;
                     }
                 }
+            }
+        }
 
-                .rb-btn-joinfree {
-                    border: 1px solid;
-                    border-radius: 7px;
-                    background-color: transparent;
-                    border-color: #2196f3;
-                    height: 50px;
-                    width: auto;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    font-weight: lighter;
+        .right-bottom-links {
+            background-color: #212121;
+            margin-top: 10px;
+            height: 100%;
+            padding-right: 10%;
+            padding-left: 7%;
+            cursor: default;
 
-                    &:hover {
-                        background-color: rgba(21, 50, 71, 0.6);
-                        transition-duration: 500ms;
-                    }
+            #rbh4 {
+                padding-top: 25px;
+                color: #2196f3;
+                font-family: 'Lexend Deca', sans-serif;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                cursor: text;
+            }
 
-                    .rb-link-joinfree {
-                        color: #2196f3;
-                        font-family: 'Roboto', sans-serif;
-                        letter-spacing: 1px;
-                        line-height: 22px;
-                        text-align: center;
-                        text-decoration: none solid;
-                    }
+            .rb-div {
+                font-family: 'Lexend Deca', sans-serif;
+                line-height: 22px;
+                padding: 4px;
+                color: white;
+                cursor: text;
+            }
+
+            .rb-btn {
+                border-radius: 20px;
+                background-color: #555555;
+                padding: 5px 5% 5px 5%;
+                margin-top: 20px;
+                border: transparent;
+
+                &:hover {
+                    background-color: lighten($color: #666666, $amount: 0);
+                    transition: 200ms;
+                }
+
+                .rb-link {
+                    text-decoration: none;
+                    color: #ffffff;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+            }
+
+            .rb-btn-joinfree {
+                border: 1px solid;
+                border-radius: 7px;
+                background-color: transparent;
+                border-color: #2196f3;
+                height: 50px;
+                width: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-weight: lighter;
+
+                &:hover {
+                    background-color: rgba(21, 50, 71, 0.6);
+                    transition-duration: 500ms;
+                }
+
+                .rb-link-joinfree {
+                    color: #2196f3;
+                    font-family: 'Roboto', sans-serif;
+                    letter-spacing: 1px;
+                    line-height: 22px;
+                    text-align: center;
+                    text-decoration: none solid;
                 }
             }
         }
@@ -494,20 +497,21 @@
 // Media Section
 @media only screen and (max-width: 991px) {
     #main-component {
-        .left{
+        .left {
             top: 63px;
         }
+
         .middle {
             margin-top: 15px;
         }
 
         .right {
-            .right-containers{
+            .right-containers {
                 position: absolute;
                 width: 100%;
-                // .right-links{
+                .right-links{
 
-                // }
+                }
             }
         }
     }
@@ -549,10 +553,9 @@
                 text-align: center;
             }
         }
-        .right{
-            position: sticky;
-            top: 90px;
-            margin-bottom: 20px;
+
+        .right {
+
         }
     }
 }
