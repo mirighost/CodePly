@@ -13,7 +13,7 @@
         border-radius: 5px;
         position: sticky;
         top: 90px;
-        margin-bottom: 20px;
+        margin-bottom: 36px;
 
         .button {
             text-align: center;
@@ -360,6 +360,8 @@
     .right {
         padding: 0px;
         height: 100%;
+        position: sticky;
+        top: -355px;
 
         .right-containers {
 
