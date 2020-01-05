@@ -486,6 +486,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+  #main-component .left {
+    top: 63px;
+  }
   #main-component .middle {
     margin-top: 15px;
   }
@@ -511,6 +514,12 @@
   #main-component .left .left-containers {
     margin-left: 15px;
     text-align: center;
+  }
+  #main-component .right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+    margin-bottom: 20px;
   }
 }
 
