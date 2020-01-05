@@ -32,17 +32,26 @@ body .navbar .fas2:hover {
 }
 
 body .navbar .search-bar {
-  color: white;
+  color: #ffffff;
   background-color: #141414;
   border: transparent;
   border-radius: 5px;
-  height: 30px;
-  width: auto;
-  padding: 4px;
+  height: 35px;
+  width: 300px;
+  padding: 8px 0px 8px 0px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: bold;
   outline: transparent;
   margin-right: -50px;
+  line-height: 20px;
+}
+
+body .navbar .search-bar:hover {
+  border-bottom: solid 1px #ffffff;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  -webkit-transition-delay: 50ms;
+          transition-delay: 50ms;
 }
 
 body .navbar .search-bar:placeholder-shown {

@@ -11,6 +11,10 @@
         background-color: #2a2a2a;
         height: 100%;
         border-radius: 5px;
+        position: sticky;
+        top: 90px;
+
+
 
         .button {
             text-align: center;
@@ -368,12 +372,12 @@
                 background-color: #212121;
                 padding-right: 6%;
                 padding-bottom: 4px;
-                cursor: pointer;
 
                 .right-list {
                     padding-left: 0%;
                     padding-top: 20px;
                     padding-left: 7%;
+                    cursor: default;
 
                     #rh4 {
                         color: #2196f3;
@@ -381,7 +385,7 @@
                         text-overflow: ellipsis;
                         overflow: hidden;
                         white-space: nowrap;
-                        font-size: 1.4rem;
+                        font-size: 1.4rem;cursor: text;
                     }
 
                     .right-contents {
@@ -393,6 +397,7 @@
                         text-overflow: ellipsis;
                         overflow: hidden;
                         white-space: nowrap;
+                        cursor: default;
 
                         &:hover {
                             background-color: #3d3d3d;
@@ -414,6 +419,7 @@
                 height: 100%;
                 padding-right: 10%;
                 padding-left: 7%;
+                cursor: default;
 
                 #rbh4 {
                     padding-top: 25px;
@@ -422,6 +428,7 @@
                     text-overflow: ellipsis;
                     overflow: hidden;
                     white-space: nowrap;
+                    cursor: text;
                 }
 
                 .rb-div {
@@ -429,6 +436,7 @@
                     line-height: 22px;
                     padding: 4px;
                     color: white;
+                    cursor: text;
                 }
 
                 .rb-btn {
@@ -490,7 +498,13 @@
         }
 
         .right {
-            text-align: left;
+            .right-containers{
+                position: absolute;
+                width: 100%;
+                .right-links{
+
+                }
+            }
         }
     }
 }

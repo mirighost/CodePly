@@ -11,6 +11,9 @@
   background-color: #2a2a2a;
   height: 100%;
   border-radius: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
 }
 
 #main-component .left .button {
@@ -361,13 +364,13 @@
   background-color: #212121;
   padding-right: 6%;
   padding-bottom: 4px;
-  cursor: pointer;
 }
 
 #main-component .right .right-containers .right-links .right-list {
   padding-left: 0%;
   padding-top: 20px;
   padding-left: 7%;
+  cursor: default;
 }
 
 #main-component .right .right-containers .right-links .right-list #rh4 {
@@ -377,6 +380,7 @@
   overflow: hidden;
   white-space: nowrap;
   font-size: 1.4rem;
+  cursor: text;
 }
 
 #main-component .right .right-containers .right-links .right-list .right-contents {
@@ -388,6 +392,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  cursor: default;
 }
 
 #main-component .right .right-containers .right-links .right-list .right-contents:hover {
@@ -408,6 +413,7 @@
   height: 100%;
   padding-right: 10%;
   padding-left: 7%;
+  cursor: default;
 }
 
 #main-component .right .right-containers .right-bottom-links #rbh4 {
@@ -417,6 +423,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  cursor: text;
 }
 
 #main-component .right .right-containers .right-bottom-links .rb-div {
@@ -424,6 +431,7 @@
   line-height: 22px;
   padding: 4px;
   color: white;
+  cursor: text;
 }
 
 #main-component .right .right-containers .right-bottom-links .rb-btn {
@@ -480,8 +488,9 @@
   #main-component .middle {
     margin-top: 15px;
   }
-  #main-component .right {
-    text-align: left;
+  #main-component .right .right-containers {
+    position: absolute;
+    width: 100%;
   }
 }
 
