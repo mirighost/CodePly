@@ -1,4 +1,4 @@
-body .navbar {
+.navbar {
   background-color: #000000;
   position: -webkit-sticky;
   position: sticky;
@@ -6,7 +6,7 @@ body .navbar {
   top: 0;
 }
 
-body .navbar .navbar-brand-c {
+.navbar .navbar-brand-c {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -14,24 +14,24 @@ body .navbar .navbar-brand-c {
   text-decoration: none;
 }
 
-body .navbar .navbar-brand {
+.navbar .navbar-brand {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
 }
 
-body .navbar .fas {
+.navbar .fas {
   text-align: right;
   color: #f7f7f7;
   font-size: 20px;
 }
 
-body .navbar .fas2:hover {
+.navbar .fas2:hover {
   padding-bottom: 5px;
 }
 
-body .navbar .search-bar {
+.navbar .search-bar {
   color: #ffffff;
   background-color: #141414;
   border: transparent;
@@ -46,7 +46,7 @@ body .navbar .search-bar {
   line-height: 20px;
 }
 
-body .navbar .search-bar:hover {
+.navbar .search-bar:hover {
   border-bottom: solid 1px #ffffff;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
@@ -54,27 +54,27 @@ body .navbar .search-bar:hover {
           transition-delay: 50ms;
 }
 
-body .navbar .search-bar:placeholder-shown {
+.navbar .search-bar:placeholder-shown {
   color: #2196f3;
 }
 
-body .navbar .fa-search {
+.navbar .fa-search {
   margin-left: -60px;
 }
 
-body .navbar .button {
+.navbar .button {
   background-color: transparent;
   border: transparent;
   color: #ffffff;
   outline: transparent;
 }
 
-body .navbar .nav-icon {
+.navbar .nav-icon {
   padding-top: 7px;
   font-size: 20px;
 }
 
-body .navbar .navbar-extra {
+.navbar-extra {
   background-color: #202020;
   width: 100%;
   height: 35px;
@@ -87,27 +87,7 @@ body .navbar .navbar-extra {
   letter-spacing: 2px;
 }
 
-body .navbar .navbar-extra .text-link {
-  text-decoration: none;
-  color: white;
-  line-height: 1rem;
-  cursor: pointer;
-}
-
-body .navbar-extra {
-  background-color: #202020;
-  width: 100%;
-  height: 35px;
-  color: white;
-  text-align: center;
-  font-family: 'Lexend Deca', sans-serif;
-  margin: 0px 0px 4px;
-  padding: 8px 0px;
-  font-size: .625rem;
-  letter-spacing: 2px;
-}
-
-body .navbar-extra .text-link {
+.navbar-extra .text-link {
   text-decoration: none;
   color: white;
   line-height: 1rem;
