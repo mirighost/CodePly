@@ -12,7 +12,6 @@ body #main-component {
 body #main-component .left {
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  background-color: #2a2a2a;
   height: 100%;
   border-radius: 5px;
   margin-bottom: 36px;
@@ -100,12 +99,12 @@ body #main-component .left .left-container .links .list #left-hr {
   background-color: #3e3e3e;
 }
 
-body #main-component .left .left-container .left-card {
+body #main-component .left .left-card {
   background-color: #424242;
   padding: 15px;
 }
 
-body #main-component .left .left-container .left-card .leftspan {
+body #main-component .left .left-card .leftspan {
   font-family: 'Lexend Deca', sans-serif;
   color: #ffffff;
   letter-spacing: 1.5px;
@@ -114,19 +113,19 @@ body #main-component .left .left-container .left-card .leftspan {
   font-size: 12px;
 }
 
-body #main-component .left .left-container .left-card .left-card-h1 {
+body #main-component .left .left-card .left-card-h1 {
   font-family: 'Lexend Deca', sans-serif;
   color: #9e9e9e;
   font-weight: bold;
 }
 
-body #main-component .left .left-container .left-card .def {
+body #main-component .left .left-card .def {
   color: #757575;
   line-height: 20px;
   padding-right: 23px;
 }
 
-body #main-component .left .left-container .left-card .card-def {
+body #main-component .left .left-card .card-def {
   font-style: italic;
   color: #9e9e9e;
 }

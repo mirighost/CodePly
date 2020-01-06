@@ -10,8 +10,7 @@
             // left section
             .left {
                 -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-                box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-                background-color: #2a2a2a;
+                box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);                
                 height: 100%;
                 border-radius: 5px;
                 margin-bottom: 36px;
@@ -37,6 +36,7 @@
                 .left-container {
                     width: 100%;
                     cursor: pointer;
+
 
                     .links {
                         font-family: 'Lexend Deca', sans-serif;
@@ -93,39 +93,40 @@
                                 background-color: #3e3e3e;
                             }
                         }
+                    
+                    }
+                }
+
+                .left-card{
+                    background-color: #424242;
+                    padding: 15px;
+
+                    .leftspan{
+                        font-family: 'Lexend Deca', sans-serif;
+                        color: #ffffff;
+                        letter-spacing: 1.5px;
+                        cursor: pointer;
+                        line-height: 15px;
+                        font-size: 12px;
+
                     }
 
-                    .left-card{
-                        background-color: #424242;
-                        padding: 15px;
+                    .left-card-h1{
+                        font-family: 'Lexend Deca', sans-serif;
+                        color: #9e9e9e;
+                        font-weight: bold;
 
-                        .leftspan{
-                            font-family: 'Lexend Deca', sans-serif;
-                            color: #ffffff;
-                            letter-spacing: 1.5px;
-                            cursor: pointer;
-                            line-height: 15px;
-                            font-size: 12px;
+                    }
+                    .def{
+                        color: #757575;
+                        line-height: 20px;
+                        padding-right: 23px;
 
-                        }
+                    }
+                    .card-def{
+                        font-style: italic;
+                        color: #9e9e9e;
 
-                        .left-card-h1{
-                            font-family: 'Lexend Deca', sans-serif;
-                            color: #9e9e9e;
-                            font-weight: bold;
-
-                        }
-                        .def{
-                            color: #757575;
-                            line-height: 20px;
-                            padding-right: 23px;
-
-                        }
-                        .card-def{
-                            font-style: italic;
-                            color: #9e9e9e;
-
-                        }
                     }
                 }
             }
