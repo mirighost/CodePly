@@ -11,7 +11,6 @@ body #main-component {
 
 body #main-component .left {
   height: 100%;
-  border-radius: 5px;
   margin-bottom: 36px;
   z-index: 1;
   position: -webkit-sticky;
@@ -21,8 +20,11 @@ body #main-component .left {
 }
 
 body #main-component .left .left-container {
+  border-radius: 5px;
   width: 100%;
-  cursor: pointer;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
@@ -40,6 +42,15 @@ body #main-component .left .left-container .button {
   font-size: 17px;
   height: 50px;
   outline: none;
+}
+
+body #main-component .left .left-container .button:hover {
+  -webkit-transform: translateX(-4px);
+          transform: translateX(-4px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-box-shadow: 0 5px #282828;
+          box-shadow: 0 5px #282828;
 }
 
 body #main-component .left .left-container .links {
@@ -62,6 +73,7 @@ body #main-component .left .left-container .links .list .contents {
   overflow: hidden;
   white-space: nowrap;
   color: #b8b8b8;
+  cursor: pointer;
 }
 
 body #main-component .left .left-container .links .list .contents:hover {
@@ -413,40 +425,6 @@ body #main-component .right .right-containers .right-links .right-list {
   cursor: default;
 }
 
-body #main-component .right .right-containers .right-links .right-list #rh4 {
-  color: #2196f3;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  cursor: text;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents {
-  border-radius: 30px;
-  padding-right: 10px;
-  margin-top: 5px;
-  padding-left: 5px;
-  color: #faf8f8;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: default;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents:hover {
-  background-color: #3d3d3d;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents .right-link {
-  text-decoration: none;
-  color: #eeeaea;
-  font-size: 0.9rem;
-}
-
 body #main-component .right .right-containers .right-bottom-links {
   background-color: #212121;
   margin-top: 10px;
@@ -454,40 +432,6 @@ body #main-component .right .right-containers .right-bottom-links {
   padding-right: 10%;
   padding-left: 7%;
   cursor: default;
-}
-
-body #main-component .right .right-containers .right-bottom-links #rh4 {
-  color: #2196f3;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  cursor: text;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents {
-  border-radius: 30px;
-  padding-right: 10px;
-  margin-top: 5px;
-  padding-left: 5px;
-  color: #faf8f8;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: default;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents:hover {
-  background-color: #3d3d3d;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents .right-link {
-  text-decoration: none;
-  color: #eeeaea;
-  font-size: 0.9rem;
 }
 
 body #main-component .right-bottom-links {

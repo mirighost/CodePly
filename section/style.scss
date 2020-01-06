@@ -10,7 +10,6 @@
             // left section
             .left {
                 height: 100%;
-                border-radius: 5px;
                 margin-bottom: 36px;
                 z-index: 1;
                 position: sticky;
@@ -18,8 +17,11 @@
                 padding: 0px;
 
                 .left-container {
+                    border-radius: 5px;
                     width: 100%;
-                    cursor: pointer;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    padding-bottom: 15px;
                     -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
 
@@ -36,6 +38,12 @@
                         font-size: 17px;
                         height: 50px;
                         outline: none;
+
+                        &:hover {
+                            transform: translateX(-4px);
+                            transition: 500ms;
+                            box-shadow: 0 5px #282828;
+                        }
                     }
 
                     .links {
@@ -56,6 +64,7 @@
                                 overflow: hidden;
                                 white-space: nowrap;
                                 color: #b8b8b8;
+                                cursor: pointer;
 
                                 &:hover {
                                     background-color: #3d3d3d;
@@ -418,39 +427,6 @@
                             padding-top: 20px;
                             padding-left: 7%;
                             cursor: default;
-
-                            #rh4 {
-                                color: #2196f3;
-                                font-weight: bold;
-                                text-overflow: ellipsis;
-                                overflow: hidden;
-                                white-space: nowrap;
-                                font-size: 1.4rem;
-                                cursor: text;
-                            }
-
-                            .right-contents {
-                                border-radius: 30px;
-                                padding-right: 10px;
-                                margin-top: 5px;
-                                padding-left: 5px;
-                                color: #faf8f8;
-                                text-overflow: ellipsis;
-                                overflow: hidden;
-                                white-space: nowrap;
-                                cursor: default;
-
-                                &:hover {
-                                    background-color: #3d3d3d;
-                                    transition: 400ms;
-                                }
-
-                                .right-link {
-                                    text-decoration: none;
-                                    color: #eeeaea;
-                                    font-size: 0.9rem;
-                                }
-                            }
                         }
                     }
 
@@ -461,39 +437,6 @@
                         padding-right: 10%;
                         padding-left: 7%;
                         cursor: default;
-
-                        #rh4 {
-                            color: #2196f3;
-                            font-weight: bold;
-                            text-overflow: ellipsis;
-                            overflow: hidden;
-                            white-space: nowrap;
-                            font-size: 1.4rem;
-                            cursor: text;
-                        }
-
-                        .right-contents {
-                            border-radius: 30px;
-                            padding-right: 10px;
-                            margin-top: 5px;
-                            padding-left: 5px;
-                            color: #faf8f8;
-                            text-overflow: ellipsis;
-                            overflow: hidden;
-                            white-space: nowrap;
-                            cursor: default;
-
-                            &:hover {
-                                background-color: #3d3d3d;
-                                transition: 400ms;
-                            }
-
-                            .right-link {
-                                text-decoration: none;
-                                color: #eeeaea;
-                                font-size: 0.9rem;
-                            }
-                        }
                     }
                 }
             }

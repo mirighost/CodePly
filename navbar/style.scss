@@ -49,8 +49,18 @@
 
         &:hover {
             border-bottom: solid 1px #ffffff;
-            transition-duration: 100ms;
-            transition-delay: 50ms;
+            transition-duration: 200ms;
+            transition-delay: 100ms;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        &:focus{
+            border-color: #2196f3;
+            transition: 500ms;
+            transition-delay: 100ms;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
         }
 
     }
