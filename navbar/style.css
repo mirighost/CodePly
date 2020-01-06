@@ -48,10 +48,20 @@
 
 .navbar .search-bar:hover {
   border-bottom: solid 1px #ffffff;
-  -webkit-transition-duration: 100ms;
-          transition-duration: 100ms;
-  -webkit-transition-delay: 50ms;
-          transition-delay: 50ms;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  border-radius: 0px;
+}
+
+.navbar .search-bar:focus {
+  border-color: #2196f3;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  border-radius: 0px;
 }
 
 .navbar .search-bar:placeholder-shown {
