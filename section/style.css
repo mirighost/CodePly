@@ -45,6 +45,15 @@ body #main-component .left .left-container .button {
   outline: none;
 }
 
+body #main-component .left .left-container .button:hover {
+  -webkit-transform: translateX(-4px);
+          transform: translateX(-4px);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  -webkit-box-shadow: 0 5px #282828;
+          box-shadow: 0 5px #282828;
+}
+
 body #main-component .left .left-container .links {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 16px;
