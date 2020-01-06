@@ -1,23 +1,28 @@
-#main-component {
+body {
+  list-style-type: none;
+}
+
+body #main-component {
   padding-top: 35px;
   position: relative;
   margin-left: 1%;
   margin-right: 1%;
 }
 
-#main-component .left {
+body #main-component .left {
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   background-color: #2a2a2a;
   height: 100%;
   border-radius: 5px;
+  margin-bottom: 36px;
+  z-index: 1;
   position: -webkit-sticky;
   position: sticky;
   top: 90px;
-  margin-bottom: 36px;
 }
 
-#main-component .left .button {
+body #main-component .left .button {
   text-align: center;
   border: 0px solid #2196f3;
   border-radius: 100px;
@@ -32,12 +37,12 @@
   outline: none;
 }
 
-#main-component .left .left-container {
+body #main-component .left .left-container {
   width: 100%;
   cursor: pointer;
 }
 
-#main-component .left .left-container .links {
+body #main-component .left .left-container .links {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 16px;
   margin-top: 5%;
@@ -45,11 +50,11 @@
   line-height: 250%;
 }
 
-#main-component .left .left-container .links .list {
+body #main-component .left .left-container .links .list {
   padding-left: 0%;
 }
 
-#main-component .left .left-container .links .list .contents {
+body #main-component .left .left-container .links .list .contents {
   border-radius: 30px;
   padding-right: 10px;
   margin-top: 5px;
@@ -59,47 +64,47 @@
   color: #b8b8b8;
 }
 
-#main-component .left .left-container .links .list .contents:hover {
+body #main-component .left .left-container .links .list .contents:hover {
   background-color: #3d3d3d;
   -webkit-transition: 400ms;
   transition: 400ms;
 }
 
-#main-component .left .left-container .links .list .contents .link {
+body #main-component .left .left-container .links .list .contents .link {
   text-decoration: none;
   color: #cfcfcf;
 }
 
-#main-component .left .left-container .links .list .contents .link .ma-1 {
+body #main-component .left .left-container .links .list .contents .link .ma-1 {
   margin-top: -2px;
   margin-left: 5%;
 }
 
-#main-component .left .left-container .links .list .contents .link .left-p {
+body #main-component .left .left-container .links .list .contents .link .left-p {
   margin-left: 5px;
 }
 
-#main-component .left .left-container .links .list .contents .features {
+body #main-component .left .left-container .links .list .contents .features {
   text-decoration: none;
   color: #b8b8b8;
   font-family: 'Lexend Deca', sans-serif;
   margin-left: 5%;
 }
 
-#main-component .left .left-container .links .list .contents .features .fas3 {
+body #main-component .left .left-container .links .list .contents .features .fas3 {
   margin-right: 2%;
 }
 
-#main-component .left .left-container .links .list #left-hr {
+body #main-component .left .left-container .links .list #left-hr {
   color: #ffffff;
   background-color: #3e3e3e;
 }
 
-#main-component .middle {
+body #main-component .middle {
   margin-bottom: 15px;
 }
 
-#main-component .middle .first-middle {
+body #main-component .middle .first-middle {
   font-family: 'Lexend Deca', sans-serif;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -110,23 +115,23 @@
   padding-top: 10px;
 }
 
-#main-component .middle .first-middle .new-codeply {
+body #main-component .middle .first-middle .new-codeply {
   font-size: 2rem;
   color: white;
   margin-bottom: -5px;
 }
 
-#main-component .middle .first-middle .editor {
+body #main-component .middle .first-middle .editor {
   color: #2196f3;
 }
 
-#main-component .middle .first-middle .info-codeply {
+body #main-component .middle .first-middle .info-codeply {
   font-size: 0.9rem;
   margin-top: 18px;
   color: #acacac;
 }
 
-#main-component .middle .first-middle .sign-up {
+body #main-component .middle .first-middle .sign-up {
   outline: transparent;
   background-color: transparent;
   border-radius: 28px;
@@ -143,29 +148,29 @@
   margin-bottom: 10px;
 }
 
-#main-component .middle .first-middle .sign-up:hover {
+body #main-component .middle .first-middle .sign-up:hover {
   background-color: #f8f6f646;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-#main-component .middle .first-middle .sign-up2 {
+body #main-component .middle .first-middle .sign-up2 {
   background-color: #2196f3;
   border-color: transparent;
 }
 
-#main-component .middle .first-middle .sign-up2:hover {
+body #main-component .middle .first-middle .sign-up2:hover {
   background-color: #329ff8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-#main-component .middle .second-middle {
+body #main-component .middle .second-middle {
   font-family: 'Lexend Deca', sans-serif;
   margin-top: 27px;
 }
 
-#main-component .middle .second-middle .second-middle-row .picture1 {
+body #main-component .middle .second-middle .second-middle-row .picture1 {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 150px;
@@ -174,7 +179,7 @@
   margin-bottom: -5px;
 }
 
-#main-component .middle .second-middle .second-middle-row .middle-icon {
+body #main-component .middle .second-middle .second-middle-row .middle-icon {
   padding-top: 20px;
   background-color: #303030;
   display: -webkit-box;
@@ -184,12 +189,12 @@
   padding-left: 3%;
 }
 
-#main-component .middle .second-middle .second-middle-row .middle-icon .icon-middle {
+body #main-component .middle .second-middle .second-middle-row .middle-icon .icon-middle {
   color: white;
   font-size: 30px;
 }
 
-#main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first {
+body #main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first {
   margin-top: 2px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -201,14 +206,14 @@
   font-size: 0.9rem;
 }
 
-#main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first .span-of-first {
+body #main-component .middle .second-middle .second-middle-row .middle-icon .main-of-first .span-of-first {
   margin-left: 0.7%;
   font-size: 11px;
   color: grey;
   font-weight: bold;
 }
 
-#main-component .middle .second-middle .second-middle-row .middle-icon .number-button {
+body #main-component .middle .second-middle .second-middle-row .middle-icon .number-button {
   background-color: transparent;
   border-color: #31d631;
   border-width: 0.5px;
@@ -222,7 +227,7 @@
   padding: 1px 0px;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first {
+body #main-component .middle .second-middle .second-middle-row .form-first {
   background-color: #303030;
   margin-bottom: 27px;
   border-bottom-left-radius: 5px;
@@ -232,11 +237,11 @@
   white-space: nowrap;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .buttons4 {
+body #main-component .middle .second-middle .second-middle-row .form-first .buttons4 {
   padding-left: 3%;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .buttons4 .form-buttons {
+body #main-component .middle .second-middle .second-middle-row .form-first .buttons4 .form-buttons {
   outline: transparent;
   background-color: transparent;
   border-radius: 35px;
@@ -248,7 +253,7 @@
   margin-right: 1%;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .second-form {
+body #main-component .middle .second-middle .second-middle-row .form-first .second-form {
   background-color: #242424;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,7 +267,7 @@
   border-bottom-right-radius: 5px;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .second-form .button-branch {
+body #main-component .middle .second-middle .second-middle-row .form-first .second-form .button-branch {
   background-color: transparent;
   border-color: white;
   border-radius: 4px;
@@ -272,7 +277,7 @@
   outline: transparent;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .second-form .button-arrow {
+body #main-component .middle .second-middle .second-middle-row .form-first .second-form .button-arrow {
   background-color: transparent;
   border-color: transparent;
   font-size: large;
@@ -280,23 +285,23 @@
   outline: transparent;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button {
+body #main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button {
   margin-left: auto;
 }
 
-#main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button .button-arrow2 {
+body #main-component .middle .second-middle .second-middle-row .form-first .second-form .right-button .button-arrow2 {
   background-color: transparent;
   border-color: transparent;
   font-size: large;
   color: #2196f3;
 }
 
-#main-component .middle .third-middle {
+body #main-component .middle .third-middle {
   font-family: 'Lexend Deca', sans-serif;
   margin-top: 27px;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 {
   background-color: #424242;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,12 +311,12 @@
   padding: 30px 4%;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 .icon-middle2 {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 .icon-middle2 {
   color: white;
   font-size: 45px;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second {
   line-height: 0.9;
   color: #b6b6b6;
   font-size: 1.1rem;
@@ -320,7 +325,7 @@
   margin-top: auto;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2 {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2 {
   outline: transparent;
   background-color: transparent;
   border-radius: 35px;
@@ -334,11 +339,11 @@
   margin-right: 5px;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2:hover {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2:hover {
   background-color: #309cf5;
 }
 
-#main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .number-rating {
+body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .number-rating {
   background-color: black;
   border-color: transparent;
   border-width: 0.5px;
@@ -352,15 +357,13 @@
   border-width: 0px;
 }
 
-#main-component .right {
+body #main-component .right {
   padding: 0px;
   height: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -355px;
+  z-index: 1;
 }
 
-#main-component .right .right-links {
+body #main-component .right .right-links {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 16px;
   width: 100%;
@@ -370,14 +373,13 @@
   padding-bottom: 4px;
 }
 
-#main-component .right .right-links .right-list {
-  padding-left: 0%;
+body #main-component .right .right-links .right-list {
   padding-top: 20px;
   padding-left: 7%;
   cursor: default;
 }
 
-#main-component .right .right-links .right-list #rh4 {
+body #main-component .right .right-links .right-list #rh4 {
   color: #2196f3;
   font-weight: bold;
   text-overflow: ellipsis;
@@ -387,7 +389,7 @@
   cursor: text;
 }
 
-#main-component .right .right-links .right-list .right-contents {
+body #main-component .right .right-links .right-list .right-contents {
   border-radius: 30px;
   padding-right: 10px;
   margin-top: 5px;
@@ -399,19 +401,19 @@
   cursor: default;
 }
 
-#main-component .right .right-links .right-list .right-contents:hover {
+body #main-component .right .right-links .right-list .right-contents:hover {
   background-color: #3d3d3d;
   -webkit-transition: 400ms;
   transition: 400ms;
 }
 
-#main-component .right .right-links .right-list .right-contents .right-link {
+body #main-component .right .right-links .right-list .right-contents .right-link {
   text-decoration: none;
   color: #eeeaea;
   font-size: 0.9rem;
 }
 
-#main-component .right .right-bottom-links {
+body #main-component .right .right-bottom-links {
   background-color: #212121;
   margin-top: 10px;
   height: 100%;
@@ -420,7 +422,50 @@
   cursor: default;
 }
 
-#main-component .right .right-bottom-links #rbh4 {
+body #main-component .right .right-bottom-links #rh4 {
+  color: #2196f3;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  cursor: text;
+}
+
+body #main-component .right .right-bottom-links .right-contents {
+  border-radius: 30px;
+  padding-right: 10px;
+  margin-top: 5px;
+  padding-left: 5px;
+  color: #faf8f8;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: default;
+}
+
+body #main-component .right .right-bottom-links .right-contents:hover {
+  background-color: #3d3d3d;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+body #main-component .right .right-bottom-links .right-contents .right-link {
+  text-decoration: none;
+  color: #eeeaea;
+  font-size: 0.9rem;
+}
+
+body #main-component .right-bottom-links {
+  background-color: #212121;
+  margin-top: 10px;
+  height: 100%;
+  padding-right: 10%;
+  padding-left: 7%;
+  cursor: default;
+}
+
+body #main-component .right-bottom-links #rbh4 {
   padding-top: 25px;
   color: #2196f3;
   font-family: 'Lexend Deca', sans-serif;
@@ -430,7 +475,7 @@
   cursor: text;
 }
 
-#main-component .right .right-bottom-links .rb-div {
+body #main-component .right-bottom-links .rb-div {
   font-family: 'Lexend Deca', sans-serif;
   line-height: 22px;
   padding: 4px;
@@ -438,7 +483,7 @@
   cursor: text;
 }
 
-#main-component .right .right-bottom-links .rb-btn {
+body #main-component .right-bottom-links .rb-btn {
   border-radius: 20px;
   background-color: #555555;
   padding: 5px 5% 5px 5%;
@@ -446,13 +491,13 @@
   border: transparent;
 }
 
-#main-component .right .right-bottom-links .rb-btn:hover {
+body #main-component .right-bottom-links .rb-btn:hover {
   background-color: #666666;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
 
-#main-component .right .right-bottom-links .rb-btn .rb-link {
+body #main-component .right-bottom-links .rb-btn .rb-link {
   text-decoration: none;
   color: #ffffff;
   text-overflow: ellipsis;
@@ -460,7 +505,7 @@
   white-space: nowrap;
 }
 
-#main-component .right .right-bottom-links .rb-btn-joinfree {
+body #main-component .right-bottom-links .rb-btn-joinfree {
   border: 1px solid;
   border-radius: 7px;
   background-color: transparent;
@@ -472,13 +517,13 @@
   font-weight: lighter;
 }
 
-#main-component .right .right-bottom-links .rb-btn-joinfree:hover {
+body #main-component .right-bottom-links .rb-btn-joinfree:hover {
   background-color: rgba(21, 50, 71, 0.6);
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
 
-#main-component .right .right-bottom-links .rb-btn-joinfree .rb-link-joinfree {
+body #main-component .right-bottom-links .rb-btn-joinfree .rb-link-joinfree {
   color: #2196f3;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
@@ -488,52 +533,64 @@
           text-decoration: none solid;
 }
 
+body .footer {
+  background-color: #303030;
+  width: 100%;
+  height: 500px;
+}
+
 @media only screen and (max-width: 991px) {
-  #main-component .left {
+  body #main-component .left {
     top: 63px;
   }
-  #main-component .middle {
+  body #main-component .middle {
     margin-top: 15px;
   }
-  #main-component .right .right-containers {
+  body #main-component .right .right-containers {
     position: absolute;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  #main-component .left {
+  body #main-component .left {
     display: none;
   }
-  #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .buttons4 .form-buttons {
+  body #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .buttons4 .form-buttons {
     font-size: 50%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  #main-component .left .button {
+  body #main-component .left .button {
     font-size: 15px;
   }
-  #main-component .left .left-containers {
+  body #main-component .left .left-containers {
     margin-left: 15px;
     text-align: center;
+  }
+  body #main-component .right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -355px;
+    margin-bottom: 36px;
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1515px) {
-  #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .buttons4 .form-buttons {
+  body #main-component .middle .second-middle .second-middle-row .main-component-shadow .form-first .buttons4 .form-buttons {
     font-size: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 1150px) {
-  #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second {
+  body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second {
     font-size: 85%;
   }
-  #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2 {
+  body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .form-buttons2 {
     font-size: 50%;
   }
-  #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .number-rating {
+  body #main-component .middle .third-middle .third-middle-row .middle-icon2 .main-of-second .number-rating {
     font-size: 50%;
   }
 }
