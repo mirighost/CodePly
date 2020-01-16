@@ -36,7 +36,10 @@
     .search-bar {
         color: #ffffff;
         background-color: #141414;
-        border: transparent;
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        border-bottom: none;
         border-radius: 5px;
         height: 35px;
         width: 300px;
@@ -55,7 +58,8 @@
             border-bottom-right-radius: 0px;
         }
 
-        &:focus{
+        &:focus {
+            border-bottom: 1px solid;
             border-color: #2196f3;
             transition: 500ms;
             transition-delay: 100ms;

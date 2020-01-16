@@ -34,7 +34,10 @@
 .navbar .search-bar {
   color: #ffffff;
   background-color: #141414;
-  border: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: none;
   border-radius: 5px;
   height: 35px;
   width: 300px;
@@ -57,6 +60,7 @@
 }
 
 .navbar .search-bar:focus {
+  border-bottom: 1px solid;
   border-color: #2196f3;
   -webkit-transition: 500ms;
   transition: 500ms;
