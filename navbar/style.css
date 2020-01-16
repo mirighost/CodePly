@@ -34,7 +34,10 @@
 .navbar .search-bar {
   color: #ffffff;
   background-color: #141414;
-  border: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: none;
   border-radius: 5px;
   height: 35px;
   width: 300px;
@@ -52,16 +55,23 @@
           transition-duration: 200ms;
   -webkit-transition-delay: 100ms;
           transition-delay: 100ms;
-  border-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .navbar .search-bar:focus {
+<<<<<<< HEAD
   border-bottom: solid 1px #2196f3;
+=======
+  border-bottom: 1px solid;
+  border-color: #2196f3;
+>>>>>>> ad08df84bcd829ec0c096eb36fcebd4c84b86692
   -webkit-transition: 500ms;
   transition: 500ms;
   -webkit-transition-delay: 100ms;
           transition-delay: 100ms;
-  border-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .navbar .search-bar:placeholder-shown {

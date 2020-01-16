@@ -59,7 +59,6 @@ body #main-component .left .left-container .links {
   margin-top: 5%;
   width: 100%;
   line-height: 250%;
-  cursor: pointer;
 }
 
 body #main-component .left .left-container .links .list {
@@ -74,6 +73,7 @@ body #main-component .left .left-container .links .list .contents {
   overflow: hidden;
   white-space: nowrap;
   color: #b8b8b8;
+  cursor: pointer;
 }
 
 body #main-component .left .left-container .links .list .contents:hover {
@@ -116,36 +116,32 @@ body #main-component .left .left-card {
   margin-top: 30px;
   background-color: #424242;
   padding: 15px;
-  cursor: default;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 body #main-component .left .left-card .leftspan {
-  cursor: text;
   font-family: 'Lexend Deca', sans-serif;
   color: #ffffff;
   letter-spacing: 1.5px;
+  cursor: pointer;
   line-height: 15px;
   font-size: 12px;
 }
 
 body #main-component .left .left-card .left-card-h1 {
-  cursor: text;
   font-family: 'Lexend Deca', sans-serif;
   color: #9e9e9e;
   font-weight: bold;
 }
 
 body #main-component .left .left-card .def {
-  cursor: text;
   color: #757575;
   line-height: 20px;
   padding-right: 23px;
 }
 
 body #main-component .left .left-card .card-def {
-  cursor: text;
   font-style: italic;
   color: #9e9e9e;
 }
@@ -429,40 +425,6 @@ body #main-component .right .right-containers .right-links .right-list {
   cursor: default;
 }
 
-body #main-component .right .right-containers .right-links .right-list #rh4 {
-  color: #2196f3;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  cursor: text;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents {
-  border-radius: 30px;
-  padding-right: 10px;
-  margin-top: 5px;
-  padding-left: 5px;
-  color: #faf8f8;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: default;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents:hover {
-  background-color: #3d3d3d;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-body #main-component .right .right-containers .right-links .right-list .right-contents .right-link {
-  text-decoration: none;
-  color: #eeeaea;
-  font-size: 0.9rem;
-}
-
 body #main-component .right .right-containers .right-bottom-links {
   background-color: #212121;
   margin-top: 10px;
@@ -470,40 +432,6 @@ body #main-component .right .right-containers .right-bottom-links {
   padding-right: 10%;
   padding-left: 7%;
   cursor: default;
-}
-
-body #main-component .right .right-containers .right-bottom-links #rh4 {
-  color: #2196f3;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  cursor: text;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents {
-  border-radius: 30px;
-  padding-right: 10px;
-  margin-top: 5px;
-  padding-left: 5px;
-  color: #faf8f8;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: default;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents:hover {
-  background-color: #3d3d3d;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-body #main-component .right .right-containers .right-bottom-links .right-contents .right-link {
-  text-decoration: none;
-  color: #eeeaea;
-  font-size: 0.9rem;
 }
 
 body #main-component .right-bottom-links {
