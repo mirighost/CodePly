@@ -56,7 +56,7 @@
 }
 
 .navbar .search-bar:focus {
-  border-color: #2196f3;
+  border-bottom: solid 1px #2196f3;
   -webkit-transition: 500ms;
   transition: 500ms;
   -webkit-transition-delay: 100ms;

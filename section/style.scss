@@ -19,7 +19,6 @@
                 .left-container {
                     border-radius: 5px;
                     width: 100%;
-                    cursor: pointer;
                     padding-right: 15px;
                     padding-left: 15px;
                     padding-bottom: 15px;
@@ -53,6 +52,7 @@
                         margin-top: 5%;
                         width: 100%;
                         line-height: 250%;
+                        cursor: pointer;
 
                         .list {
                             padding-left: 0%;
@@ -109,19 +109,22 @@
                     margin-top: 30px;
                     background-color: #424242;
                     padding: 15px;
+                    cursor: default;
                     -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
                     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+
                     .leftspan {
+                        cursor: text;
                         font-family: 'Lexend Deca', sans-serif;
                         color: #ffffff;
                         letter-spacing: 1.5px;
-                        cursor: pointer;
                         line-height: 15px;
                         font-size: 12px;
 
                     }
 
                     .left-card-h1 {
+                        cursor: text;
                         font-family: 'Lexend Deca', sans-serif;
                         color: #9e9e9e;
                         font-weight: bold;
@@ -129,6 +132,7 @@
                     }
 
                     .def {
+                        cursor: text;
                         color: #757575;
                         line-height: 20px;
                         padding-right: 23px;
@@ -136,6 +140,7 @@
                     }
 
                     .card-def {
+                        cursor: text;
                         font-style: italic;
                         color: #9e9e9e;
 
