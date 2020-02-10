@@ -516,42 +516,82 @@
          }
      }
 
+     .main-footer {
 
-     // Media Section
-     @media only screen and (max-width: 991px) {
-         #main-component {
-             .left {
-                 top: 63px;
+         .row {
+
+             .fs-head {
+                 font-family: 'Lexend Deca', sans-serif;
+                 color: #6b6b6b;
+                 margin-left: 3%;
+                 letter-spacing: 1.5px;
+                 margin-top: 70px;
+                 width: 10000px;
+                 font-size: 13px;
              }
 
-             .middle {
-                 margin-top: 15px;
+             .fs-body {
+                 margin-left: 3%;
+                 font-family: 'Lexend Deca', sans-serif;
+                 color: #4b4b4b;
+                 line-height: 24px;
+                 word-spacing: 0px;
+                 width: 1100px;
              }
+         }
 
-             .right {
-                 .right-containers {
-                     position: absolute;
-                     width: 100%;
+
+
+         .footer {
+             
+             .explore {
+
+                 f-h2 {
+                     color: #2196f3;
+                 }
+
+                 .link {
+                     text-decoration: none;
                  }
              }
          }
      }
+ }
 
-     @media only screen and (max-width: 767px) {
-         #main-component {
-             .left {
-                 display: none;
+ // Media Section
+ @media only screen and (max-width: 991px) {
+     #main-component {
+         .left {
+             top: 63px;
+         }
+
+         .middle {
+             margin-top: 15px;
+         }
+
+         .right {
+             .right-containers {
+                 position: absolute;
+                 width: 100%;
              }
+         }
+     }
+ }
 
-             .middle {
-                 .second-middle {
-                     .second-middle-row {
-                         .main-component-shadow {
-                             .form-first {
-                                 .buttons4 {
-                                     .form-buttons {
-                                         font-size: 50%;
-                                     }
+ @media only screen and (max-width: 767px) {
+     #main-component {
+         .left {
+             display: none;
+         }
+
+         .middle {
+             .second-middle {
+                 .second-middle-row {
+                     .main-component-shadow {
+                         .form-first {
+                             .buttons4 {
+                                 .form-buttons {
+                                     font-size: 50%;
                                  }
                              }
                          }
@@ -560,39 +600,39 @@
              }
          }
      }
+ }
 
-     @media only screen and (min-width: 992px) {
-         #main-component {
-             .left {
-                 .button {
-                     font-size: 15px;
-                 }
-
-                 .left-containers {
-                     margin-left: 15px;
-                     text-align: center;
-                 }
+ @media only screen and (min-width: 992px) {
+     #main-component {
+         .left {
+             .button {
+                 font-size: 15px;
              }
 
-             .right {
-                 position: sticky;
-                 top: -355px;
-                 margin-bottom: 36px;
+             .left-containers {
+                 margin-left: 15px;
+                 text-align: center;
              }
          }
-     }
 
-     @media only screen and (min-device-width: 768px) and (max-device-width: 1515px) {
-         #main-component {
-             .middle {
-                 .second-middle {
-                     .second-middle-row {
-                         .main-component-shadow {
-                             .form-first {
-                                 .buttons4 {
-                                     .form-buttons {
-                                         font-size: 0.5rem;
-                                     }
+         .right {
+             position: sticky;
+             top: -355px;
+             margin-bottom: 36px;
+         }
+     }
+ }
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1515px) {
+     #main-component {
+         .middle {
+             .second-middle {
+                 .second-middle-row {
+                     .main-component-shadow {
+                         .form-first {
+                             .buttons4 {
+                                 .form-buttons {
+                                     font-size: 0.5rem;
                                  }
                              }
                          }
@@ -601,23 +641,23 @@
              }
          }
      }
+ }
 
-     @media only screen and (max-width: 1150px) {
-         #main-component {
-             .middle {
-                 .third-middle {
-                     .third-middle-row {
-                         .middle-icon2 {
-                             .main-of-second {
-                                 font-size: 85%;
+ @media only screen and (max-width: 1150px) {
+     #main-component {
+         .middle {
+             .third-middle {
+                 .third-middle-row {
+                     .middle-icon2 {
+                         .main-of-second {
+                             font-size: 85%;
 
-                                 .form-buttons2 {
-                                     font-size: 50%;
-                                 }
+                             .form-buttons2 {
+                                 font-size: 50%;
+                             }
 
-                                 .number-rating {
-                                     font-size: 50%;
-                                 }
+                             .number-rating {
+                                 font-size: 50%;
                              }
                          }
                      }

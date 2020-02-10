@@ -58,9 +58,14 @@
             border-bottom-right-radius: 0px;
         }
 
+<<<<<<< HEAD
+        &:focus{
+            border-bottom: solid 1px #2196f3;
+=======
         &:focus {
             border-bottom: 1px solid;
             border-color: #2196f3;
+>>>>>>> ad08df84bcd829ec0c096eb36fcebd4c84b86692
             transition: 500ms;
             transition-delay: 100ms;
             border-bottom-left-radius: 0px;
