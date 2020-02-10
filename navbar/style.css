@@ -60,12 +60,8 @@
 }
 
 .navbar .search-bar:focus {
-<<<<<<< HEAD
-  border-bottom: solid 1px #2196f3;
-=======
   border-bottom: 1px solid;
   border-color: #2196f3;
->>>>>>> ad08df84bcd829ec0c096eb36fcebd4c84b86692
   -webkit-transition: 500ms;
   transition: 500ms;
   -webkit-transition-delay: 100ms;
