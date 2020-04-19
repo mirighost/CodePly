@@ -1,10 +1,10 @@
-@import url("navbar/style.css");
-@import url("section/style.css");
-@import url("footer/style.css");
-@import url("theme.css");
+@import url('navbar/style.css');
+@import url('section/style.css');
+@import url('footer/style.css');
+@import url('theme.css');
 
 #body {
-  background-color: #303030;
+    background-color: #303030;
 }
 
 /*# sourceMappingURL=main.css.map */
